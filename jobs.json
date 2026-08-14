@@ -1,0 +1,3068 @@
+[
+  {
+    "id": "front_end_lead",
+    "title": "Front-end Lead",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "Front-End",
+    "level": "Lead",
+    "reportsTo": "CTO",
+    "weeklyTime": "6 ore (minim)",
+    "onetCode": "15-1252.00 – Software Developers",
+    "training": null,
+    "purpose": "Asigură calitatea și consistența interfețelor pe care le folosesc utilizatorii și formează echipa de front-end (web și mobile/PWA).",
+    "responsibilities": [
+      "Coordonează arhitectura și standardele de front-end: structura de componente, convenții de cod, performanță",
+      "Face code review pentru echipă și menține standardele de calitate",
+      "Planifică task-urile echipei împreună cu Product și UI/UX; deblochează membrii echipei",
+      "Mentorează Front-end Developer-ul și Mobile/PWA Developer-ul (rol dublu: execuție + formare)",
+      "Documentează deciziile tehnice și convențiile de echipă (pentru transfer de cunoaștere)",
+      "Colaborează cu UI/UX Lead-ul pentru implementarea fidelă a designului și cu Back-end pentru contractele de API",
+      "Raportează către CTO starea tehnică a front-end-ului: progres, riscuri, datorie tehnică"
+    ],
+    "requiredSkills": [
+      "Experiență solidă în dezvoltare front-end: JavaScript/TypeScript, HTML/CSS la nivel avansat",
+      "Familiaritate cu un framework modern (React/Vue/Angular)",
+      "Noțiuni de design și UX — rolul e puntea dintre design și cod",
+      "Disponibilitatea de a forma alți voluntari — jumătate din rol e mentorat",
+      "Atitudine autodidactă: te documentezi singur(ă) în cod, documentație și resurse tehnice; într-un rol senior, tu ești sursa de răspunsuri a echipei",
+      "Disponibilitate de minim 10 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Experiență anterioară de coordonare tehnică sau de mentorat al developerilor juniori",
+      "Experiență cu PWA sau dezvoltare mobile",
+      "Noțiuni de accesibilitate (a11y) și de optimizare a performanței în browser",
+      "Experiență cu proiecte open-source sau echipe distribuite/remote",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [
+      "Design de arhitectură front-end: componentizare, gestionarea stării, organizarea proiectului",
+      "Leadership tehnic și mentorat pe un domeniu vizual + interactiv",
+      "Code review la nivel de senior pe JavaScript/TypeScript și framework",
+      "Trade-off-uri între performanță, accesibilitate și experiența utilizatorului",
+      "Coordonarea muncii la granița dintre Product, UI/UX și Back-end — poziția de traducător între trei lumi",
+      "Învățare autonomă: capacitatea de a evalua și adopta singur(ă) tehnologii și practici noi într-un ecosistem care se schimbă rapid"
+    ],
+    "note": "Lead-ul de front-end într-o echipă de voluntari scrie în continuare cod — nu e un rol pur de coordonare. Ecosistemul front-end se mișcă mai repede decât orice altă zonă tehnică, iar echipa se schimbă des (angajări, sesiuni), deci documentarea convențiilor nu e birocrație, ci condiția ca proiectul să supraviețuiască rotației de oameni.",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ],
+    "location": "100% remote"
+  },
+  {
+    "id": "front_end_developer",
+    "title": "Front-end Developer",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "Front-End",
+    "level": "Specialist",
+    "reportsTo": "Front-end Lead",
+    "weeklyTime": "6–10 ore",
+    "onetCode": "15-1252.00 – Software Developers",
+    "training": "4–6 săptămâni",
+    "purpose": "Transformă designul în interfețe web funcționale, accesibile și plăcute de folosit.",
+    "responsibilities": [
+      "Implementează componente și pagini pornind de la designul UI/UX",
+      "Integrează interfața cu API-urile expuse de back-end",
+      "Scrie cod testabil și menține standardele convenite de echipă",
+      "Documentează componentele construite (pentru transfer de cunoaștere)",
+      "Trimite codul spre review prin pull requests și integrează feedback-ul primit",
+      "Corectează bug-urile de interfață raportate de QA pe zonele de care se ocupă",
+      "Semnalează Front-end Lead-ului blocajele și inconsecvențele dintre design și fezabilitate"
+    ],
+    "requiredSkills": [
+      "Baze de HTML/CSS și JavaScript, dovedibile prin proiecte (personale, de curs, profesionale)",
+      "Curiozitate vizuală și atenție la detalii — restul se formează",
+      "Noțiuni de bază de Git (commit, branch, push)",
+      "Atitudine autodidactă: cauți singur(ă) în documentație, în codul existent și în resursele online înainte de a cere ajutor, iar întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă"
+    ],
+    "desirableSkills": [
+      "Familiaritate cu un framework modern (nu obligatoriu — se învață în formare)",
+      "Noțiuni despre consumul de API-uri (fetch, REST)",
+      "Noțiuni de design responsive",
+      "Familiaritate cu pull requests și code review",
+      "Engleză scris-citit, nivel funcțional (documentația tehnică e majoritar în engleză)"
+    ],
+    "developedCompetencies": [
+      "Dezvoltare modernă web: HTML/CSS/JavaScript sau TypeScript, cu framework, pe un produs real",
+      "Lucrul cu API-uri și gestiunea stării unei aplicații",
+      "Implementarea unui design pixel-perfect și responsive",
+      "Noțiuni de accesibilitate (a11y) și performanță în browser",
+      "Lucru colaborativ cu Git și flux Pull Request → review",
+      "Parcurgerea întregului ciclu de viață al unei interfețe, de la design la livrare, într-o echipă mică unde vezi efectul muncii tale direct",
+      "Învățare autonomă: capacitatea de a naviga singur(ă) documentație, cod și tehnologii noi, apelând la sprijin doar după o explorare proprie"
+    ],
+    "note": "Front-end-ul e zona cu cea mai scurtă distanță dintre codul tău și utilizator — ce scrii azi se vede în producție și în feedback-ul oamenilor. E și zona în care diferența dintre \"am făcut un curs\" și \"am livrat într-o echipă cu review și QA\" se vede cel mai repede la interviuri — exact diferența pe care o construiește acest rol.",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ],
+    "location": "100% remote"
+  },
+  {
+    "id": "ui_ux_lead",
+    "title": "UI/UX Lead",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "UI UX Design",
+    "level": "Lead",
+    "reportsTo": "CTO",
+    "weeklyTime": "6 ore (minim)",
+    "onetCode": "15-1255.00 – Web and Digital Interface Designers",
+    "training": null,
+    "purpose": "Asigură că produsul e ușor de folosit, plăcut vizual și consistent, și formează echipa de design.",
+    "responsibilities": [
+      "Definește direcția de design a produsului: sistem de design, principii vizuale, standarde de uzabilitate",
+      "Conduce activitățile de cercetare UX: interviuri cu utilizatori, testare de uzabilitate, prototipuri",
+      "Lucrează cu Product Manager-ul pentru definirea soluțiilor și cu Front-end pentru implementarea fidelă a designului",
+      "Mentorează UI Designer-ul (rol dublu: execuție + formare)",
+      "Documentează sistemul de design, deciziile vizuale și învățămintele din cercetare (pentru transfer de cunoaștere)",
+      "Prioritizează munca de design în funcție de roadmap-ul de produs și capacitatea echipei",
+      "Raportează către CTO starea designului: progres, riscuri, nevoi"
+    ],
+    "requiredSkills": [
+      "Experiență solidă în UI/UX design, cu portofoliu pe produse reale (nu doar concepte)",
+      "Stăpânirea Figma sau a unei unelte echivalente",
+      "Înțelegere atât a UX (gândire, cercetare, fluxuri) cât și a UI (vizual, tipografie, ierarhie)",
+      "Disponibilitatea de a forma alți voluntari",
+      "Atitudine autodidactă: te documentezi singur(ă) despre practici, pattern-uri și unelte de design înainte de a căuta sprijin extern; într-un rol senior, tu ești sursa de răspunsuri a echipei",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de feedback-ul și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Experiență anterioară de mentorat sau de coordonare a designerilor juniori",
+      "Experiență de cercetare cu utilizatori (interviuri, testare de uzabilitate) condusă independent",
+      "Noțiuni de accesibilitate (WCAG) aplicate în design",
+      "Înțelegerea colaborării design–development (handoff, design tokens, componente)",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [
+      "Gândire de design end-to-end: de la cercetarea cu utilizatorii la livrare către development",
+      "Construirea și menținerea unui design system coerent, pe un produs live",
+      "Leadership creativ și mentorat într-un domeniu la granița dintre artă și produs",
+      "Trade-off-uri între estetică, uzabilitate, fezabilitate tehnică și timp — decizia matură de design",
+      "Cercetarea cu utilizatorii și traducerea descoperirilor în decizii de design",
+      "Învățare autonomă: capacitatea de a evalua și adopta singur(ă) practici și unelte noi de design, rămânând sursa de direcție a echipei"
+    ],
+    "note": "Rolul e dublu prin natura organizației: faci design și formezi designeri, în același timp. Nu ai echipă de research, design ops sau alți seniori cu care să împarți deciziile.",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ],
+    "location": "100% remote"
+  },
+  {
+    "id": "ui_designer",
+    "title": "UI Designer",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "UI UX Design",
+    "level": "Specialist",
+    "reportsTo": "UI/UX Lead",
+    "weeklyTime": "6 ore (minim)",
+    "onetCode": "15-1255.00 – Web and Digital Interface Designers",
+    "training": null,
+    "purpose": "Transformă deciziile de UX în interfețe vizuale concrete, consistente cu sistemul de design și plăcute de folosit.",
+    "responsibilities": [
+      "Creează machete și prototipuri ale interfețelor, pornind de la specificațiile de produs și de la sistemul de design",
+      "Menține și extinde sistemul de design: componente, stiluri, pattern-uri",
+      "Colaborează strâns cu Front-end Developer-ii pentru ca implementarea să corespundă designului",
+      "Iterează pe design pe baza feedback-ului de la utilizatori și echipă",
+      "Documentează componentele și pattern-urile create (pentru transfer de cunoaștere)",
+      "Semnalează UI/UX Lead-ului inconsistențele vizuale observate în produs"
+    ],
+    "requiredSkills": [
+      "Simț vizual și sensibilitate pentru detalii: spațiere, aliniere, tipografie",
+      "Familiaritate de bază cu Figma sau o unealtă similară",
+      "Curiozitate față de cum gândesc oamenii care folosesc un produs — restul se formează",
+      "Atitudine autodidactă: explorezi singur(ă) sistemul de design existent, documentația și resursele de design înainte de a întreba, iar întrebările către Lead vin cu variante deja încercate",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă"
+    ],
+    "desirableSkills": [
+      "Portofoliu incipient (proiecte personale, exerciții, cursuri) care arată simțul vizual",
+      "Noțiuni despre design systems și componente reutilizabile",
+      "Noțiuni de bază despre cum se implementează un design în cod (ce e ușor/greu pentru un developer)",
+      "Familiaritate cu principii de UX (ierarhie, fluxuri, uzabilitate)",
+      "Engleză scris-citit, nivel funcțional (resursele de design sunt majoritar în engleză)"
+    ],
+    "developedCompetencies": [
+      "Design de interfețe digitale: layout, tipografie, culoare, ierarhie vizuală — pe un produs real",
+      "Lucrul cu un sistem de design: cum se construiește, cum se folosește, cum se menține",
+      "Figma (sau echivalent) la nivel avansat: componente, variante, auto-layout, prototipare",
+      "Înțelegerea constrângerilor tehnice ale implementării: ce e ușor, ce e greu, ce e imposibil",
+      "Noțiuni de accesibilitate aplicate în design: contrast, dimensiuni, navigare",
+      "Învățare autonomă: capacitatea de a-ți dezvolta singur(ă) meșteșugul (pattern-uri, unelte, critici de design), apelând la sprijin doar după o explorare proprie"
+    ],
+    "note": "La noi, designul tău ajunge în producție rapid, într-o echipă mică unde feedback-ul de la utilizatori se întoarce direct la tine — exact bucla scurtă în care se formează un designer bun. Nu ai un departament de design în jur, ci un singur mentor (UI/UX Lead), deci ritmul de creștere depinde mult de cât exersezi și cauți singur(ă).",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ],
+    "location": "100% remote"
+  },
+  {
+    "id": "vol_ai_engineer_lead",
+    "title": "AI Engineer Lead",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "AI Machine Learning",
+    "level": "Voluntar",
+    "reportsTo": "CEO",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "15-1221.00 – Computer and Information Research Scientists",
+    "training": "",
+    "purpose": "Coordonează echipa de ingineri care dezvoltă software folosind agenți AI ca metodă principală de lucru și stabilește standardele de calitate și verificare pentru codul produs în acest mod.",
+    "responsibilities": [
+      "Stabilește fluxul de lucru AI-native al echipei (structurarea task-urilor pentru agenți, context engineering, checklist-uri de review)",
+      "Definește standardele de verificare a codului generat/asistat de AI înainte de integrare (code review, testare, criterii de acceptanță)",
+      "Coordonează alocarea task-urilor între membrii echipei, ținând cont de ce se pretează la orchestrare AI și ce necesită implementare umană directă",
+      "Ia decizii arhitecturale și menține coerența tehnică a soluțiilor construite de echipă",
+      "Face onboardingul și mentorează noii AI Native Engineers (4-6 săptămâni)",
+      "Raportează progresul, riscurile de calitate și rezultatele echipei către CTO",
+      "Colaborează cu celelalte departamente tehnice (Back-end, Front-end, Scraping) pentru integrarea soluțiilor dezvoltate AI-native"
+    ],
+    "requiredSkills": [
+      "Orchestrare avansată de agenți AI (Cursor, Claude Code și alte unelte similare)",
+      "Context engineering și redactare de documentație \"agent-readable\" (specificații, criterii testabile)",
+      "Judecată arhitecturală și luare de decizii tehnice sub incertitudine",
+      "Coordonare de echipă tehnică și code review",
+      "Mentorat tehnic pentru colegi la început de drum",
+      "Raportare executivă (status, riscuri, rezultate)"
+    ],
+    "desirableSkills": [
+      "Experiență de programare, indiferent de limbaj sau stack",
+      "Experiență anterioară de utilizare a unor unelte AI de dezvoltare (Cursor, Copilot, Claude Code etc.)",
+      "Cunoștințe de bază despre principii de arhitectură software",
+      "Expunere anterioară la coordonare de echipă sau proiect, chiar informală"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_ai_native_engineer",
+    "title": "AI Native Engineer",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "AI Machine Learning",
+    "level": "Voluntar",
+    "reportsTo": "AI Engineer Lead",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "15-1252.00 – Software Developers",
+    "training": "",
+    "purpose": "Dezvoltă funcționalități pentru peviitor.ro orchestrând agenți AI ca metodă principală de lucru, rămânând responsabil pentru corectitudinea, calitatea și securitatea codului produs.",
+    "responsibilities": [
+      "Descompune cerințele primite de la Lead în task-uri clare, potrivite pentru execuție prin agenți AI",
+      "Orchestrează agenți AI (Cursor, Claude Code etc.) pentru implementarea funcționalităților alocate",
+      "Verifică, testează și validează codul generat/asistat de AI înainte de a-l integra (nu abdică responsabilitatea către agent)",
+      "Identifică și corectează erorile, halucinațiile sau abaterile introduse de agenți în procesul de lucru",
+      "Documentează deciziile tehnice și contextul folosit pentru a ghida agenții (context engineering)",
+      "Participă la code review pentru codul colegilor",
+      "Colaborează cu Lead-ul pentru clarificarea task-urilor ambigue sau greu de descompus pentru un agent"
+    ],
+    "requiredSkills": [
+      "Orchestrare de agenți AI pentru dezvoltare software",
+      "Verificare și validare riguroasă a codului generat de AI (\"trust, but verify\")",
+      "Context engineering (structurare de cerințe și documentație pentru consum de către agenți)",
+      "Debugging și corectare de erori introduse prin generare AI",
+      "Gândire arhitecturală de bază, aplicată la scară mică",
+      "Autoformare continuă pe unelte și practici AI-native emergente"
+    ],
+    "desirableSkills": [
+      "Cunoștințe de bază de programare (orice limbaj)",
+      "Experiență de utilizare a unui asistent AI de cod (ChatGPT, Claude, Copilot etc.), chiar nformală",
+      "Curiozitate tehnică și confort cu unelte în continuă schimbare",
+      "Atenție la detalii, esențială pentru verificarea codului generat"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_back_end_developer",
+    "title": "Back-end Developer",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "Back-End",
+    "level": "Voluntar",
+    "reportsTo": "Back-end Lead",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "15-1252.00 – Software Developers",
+    "training": "",
+    "purpose": "Dezvoltă și întreține funcționalitățile back-end ale platformei peviitor.ro — API-uri, logică de",
+    "responsibilities": [
+      "Implementează funcționalități back-end pe baza sarcinilor primite: endpoint-uri de API, logică de business, interogări de date",
+      "Scrie cod conform standardelor echipei și îl trimite spre review prin pull requests",
+      "Corectează bug-urile raportate de echipa de QA pe zonele de care se ocupă",
+      "Participă la code review: primește feedback pe codul propriu și, pe măsură ce avansează, revizuiește codul colegilor",
+      "Testează local propriul cod înainte de a-l trimite spre review",
+      "Documentează funcționalitățile implementate (comentarii, README-uri, descrieri de PR clare)",
+      "Participă la întâlnirile echipei și semnalează din timp blocajele"
+    ],
+    "requiredSkills": [
+      "Cunoștințe de programare în [limbajul principal al platformei] — nivel de bază spre mediu, dovedibile prin proiecte (personale, de facultate, profesionale)",
+      "Noțiuni despre cum funcționează o aplicație web: HTTP, API-uri, client-server",
+      "Noțiuni de bază de Git (commit, branch, push)",
+      "Atitudine autodidactă: cauți singur(ă) în documentație, în codul existent și în resursele online înainte de a cere ajutor, iar întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă"
+    ],
+    "desirableSkills": [
+      "Experiență cu baze de date (SQL sau NoSQL) la nivel de bază",
+      "Familiaritate cu pull requests și code review",
+      "Familiaritate cu PHP, no framework, docker, Git, Visual Studio Code",
+      "Experiență cu proiecte open-source, chiar și minimă",
+      "Engleză scris-citit, nivel funcțional (documentația tehnică e majoritar în engleză)"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_back_end_lead",
+    "title": "Back-end Lead",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "Back-End",
+    "level": "Voluntar",
+    "reportsTo": "CEO",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "15-1252.00 – Software Developers",
+    "training": "",
+    "purpose": "Coordonează tehnic dezvoltarea back-end-ului platformei peviitor.ro, luând deciziile de",
+    "responsibilities": [
+      "Definește și menține arhitectura back-end a platformei: structura API-urilor, modelul de date, integrările cu celelalte componente (front-end, scraping, infrastructură)",
+      "Stabilește standardele de cod și practicile echipei (convenții, structura de review, definition of done tehnic)",
+      "Revizuiește pull request-urile echipei și asigură calitatea codului intrat în producție",
+      "Distribuie sarcinile tehnice către Back-end Developers, calibrat pe nivelul fiecăruia, și urmărește progresul",
+      "Colaborează cu Product Manager-ul la estimarea și fezabilitatea funcționalităților cerute",
+      "Colaborează cu echipele de Front-end, Scraping, DevOps și QA pentru integrarea componentelor",
+      "Mentorează tehnic membrii echipei: pair programming, feedback pe cod, ghidarea învățării",
+      "Documentează deciziile de arhitectură și părțile critice ale sistemului (pentru transfer de cunoaștere)",
+      "Raportează către CTO starea tehnică a back-end-ului: progres, riscuri, datorie tehnică"
+    ],
+    "requiredSkills": [
+      "Experiență solidă de dezvoltare back-end: PHP, API-uri REST, baze de date",
+      "Înțelegerea arhitecturii de aplicații web: client-server, autentificare, performanță, securitate de bază",
+      "Experiență cu GitHub Projects și fluxuri de lucru colaborative (pull requests, code review)",
+      "Capacitatea de a explica decizii tehnice și de a da feedback constructiv pe cod",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Experiență cu baze de date (SQL sau NoSQL) la nivel de bază",
+      "Familiaritate cu pull requests și code review",
+      "Experiență cu proiecte open-source, chiar și minimă",
+      "Engleză scris-citit, nivel funcțional (documentația tehnică e majoritar în engleză)"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_cybersecurity_lead",
+    "title": "Cybersecurity Lead",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "Cybersecurity",
+    "level": "Voluntar",
+    "reportsTo": "CTO",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1212.00 – Information Security Analysts",
+    "training": "",
+    "purpose": "Asigură securitatea platformei și a datelor organizației, definind strategia de securitate,",
+    "responsibilities": [
+      "Definește strategia și prioritățile de securitate ale organizației: ce protejăm întâi, cu resursele pe care le avem",
+      "Stabilește politicile și standardele de securitate (gestiunea accesului, parole, răspuns la incidente) în colaborare cu Legal & Compliance pe zona GDPR",
+      "Coordonează echipa: distribuie activitățile către Specialist, Analyst și Penetration Tester și urmărește progresul",
+      "Aprobă și supervizează testele de penetrare: definește scopul (scope), emite autorizarea scrisă, validează raportarea",
+      "Conduce răspunsul la incidente de securitate: triaj, coordonare, comunicare cu CTO și Compliance Officer (obligațiile de notificare GDPR)",
+      "Revizuiește arhitectura platformei din perspectivă de securitate, împreună cu leadurile tehnice (Back-end, DevOps)",
+      "Mentorează membrii echipei și documentează practicile de securitate (pentru transfer de cunoaștere)",
+      "Raportează către CTO postura de securitate: riscuri, vulnerabilități deschise, progres"
+    ],
+    "requiredSkills": [
+      "Experiență solidă în securitate informatică: securitatea aplicațiilor web, gestiunea vulnerabilităților, principii de răspuns la incidente",
+      "Înțelegerea arhitecturii aplicațiilor web moderne (API-uri, autentificare, infrastructură cloud)",
+      "Judecată matură de risc: capacitatea de a prioritiza cu resurse limitate, fără a căuta perfecțiunea",
+      "Etică profesională impecabilă — rolul are acces la cele mai sensibile zone ale organizației",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Certificări de securitate (CISSP, OSCP, CEH sau echivalent) — utile, nu obligatorii",
+      "Experiență anterioară de coordonare tehnică sau mentorat",
+      "Familiaritate cu cerințele GDPR privind securitatea prelucrării și notificarea breșelor",
+      "Experiență cu unelte de monitorizare, scanare de vulnerabilități și SIEM",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_cybersecurity_specialist",
+    "title": "Cybersecurity Specialist",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "Cybersecurity",
+    "level": "Voluntar",
+    "reportsTo": "Cybersecurity Lead",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1212.00 – Information Security Analysts",
+    "training": "",
+    "purpose": "Implementează măsurile de securitate ale organizației: de la configurări sigure și gestiunea accesului până la remedierea vulnerabilităților transformând prioritățile stabilite de Lead în protecții funcționale.",
+    "responsibilities": [
+      "Implementează măsurile de securitate prioritizate de Lead: configurări sigure (hardening), reguli de acces, protecții la nivel de aplicație și infrastructură",
+      "Gestionează operațional accesele: conturi, permisiuni, revocări la plecarea voluntarilor (împreună cu People & Culture la offboarding)",
+      "Rulează scanări periodice de vulnerabilități pe platformă și dependențe (biblioteci, imagini, servicii) și urmărește remedierea",
+      "Colaborează cu DevOps și Back-end pentru remedierea vulnerabilităților identificate, verificând fix-urile",
+      "Menține componentele de securitate la zi: actualizări, patch-uri, certificate",
+      "Contribuie la ghidurile practice de securitate pentru voluntari (parole, 2FA, echipament personal)",
+      "Documentează configurările și măsurile implementate (pentru transfer de cunoaștere)"
+    ],
+    "requiredSkills": [
+      "Cunoștințe tehnice de bază spre mediu: Linux, rețelistică elementară, cum funcționează o aplicație web",
+      "Noțiuni despre vulnerabilitățile web comune (OWASP Top 10, la nivel conceptual)",
+      "Rigoare în execuție",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Experiență practică cu Linux și linia de comandă",
+      "Familiaritate cu Docker/containere sau cu un cloud provider",
+      "Noțiuni de gestiune a identității și accesului (IAM, 2FA, principiul privilegiului minim)",
+      "Familiaritate cu unelte de scanare (Nmap, OWASP ZAP, scanere de dependențe)",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_penetration_tester",
+    "title": "Penetration Tester",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "Cybersecurity",
+    "level": "Voluntar",
+    "reportsTo": "Cybersecurity Lead",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1299.04 – Penetration Testers",
+    "training": "",
+    "purpose": "Testează ofensiv securitatea platformei organizației exclusiv în cadrul autorizat de",
+    "responsibilities": [
+      "Execută teste de penetrare pe sistemele organizației, strict în limitele scopului (scope) definit și autorizat în scris de Cybersecurity Lead",
+      "Identifică și validează vulnerabilități în aplicație și infrastructură, documentând pașii de reproducere",
+      "Redactează rapoarte de testare clare: vulnerabilitate, severitate, impact, recomandare de remediere",
+      "Prezintă concluziile echipelor tehnice (Back-end, Front-end, DevOps) și susține retestarea după remediere",
+      "Respectă strict regulile de angajament: fără testare pe sisteme terțe, fără acces la date reale peste ce cere validarea, raportare imediată a descoperirilor critice",
+      "Menține un mediu de testare documentat și reproductibil",
+      "Urmărește tehnicile și uneltele noi din domeniu și le propune spre adoptare (pentru transfer de cunoaștere)"
+    ],
+    "requiredSkills": [
+      "Cunoștințe despre vulnerabilitățile web comune (OWASP Top 10) și despre cum funcționează o aplicație web din interior",
+      "Integritate și disciplină de cadru: testezi doar ce e autorizat, când e autorizat, cum e autorizat — fără excepții; încălcarea cadrului e motiv de încetare imediată a colaborării",
+      "Capacitatea de a documenta riguros: o vulnerabilitate nereproductibilă e o vulnerabilitate neremediabilă",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Experiență cu platforme legale de exersare (HackTheBox, TryHackMe, PortSwigger, Academy, CTF-uri)",
+      "Familiaritate cu unelte de testare (Burp Suite, OWASP ZAP, Nmap)",
+      "Noțiuni de scripting (Python, Bash) pentru automatizarea testelor",
+      "Noțiuni despre procesul de responsible disclosure",
+      "Engleză scris-citit, nivel funcțional (aproape toată literatura domeniului e în engleză)"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_security_analyst",
+    "title": "Security Analyst",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "Cybersecurity",
+    "level": "Voluntar",
+    "reportsTo": "Cybersecurity Lead",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1212.00 – Information Security Analysts",
+    "training": "",
+    "purpose": "Monitorizează platforma și infrastructura organizației pentru semne de probleme de securitate, investighează alertele și sprijină răspunsul la incidente — ochii și urechile echipei de securitate.",
+    "responsibilities": [
+      "Monitorizează logurile și alertele platformei pentru activitate suspectă (autentificări anormale, trafic neobișnuit, erori repetate)",
+      "Investighează alertele: triază ce e zgomot și ce e semnal, documentează concluziile",
+      "Escaladează către Lead suspiciunile fundamentate de incident, cu dovezile colectate",
+      "Sprijină răspunsul la incidente: colectare de dovezi, cronologie, documentarea lecțiilor învățate",
+      "Urmărește sursele de threat intelligence relevante (vulnerabilități noi în tehnologiile folosite de platformă) și semnalează ce ne afectează",
+      "Menține și îmbunătățește regulile de alertare, reducând alarmele false",
+      "Contribuie la rapoartele periodice de securitate pregătite pentru CTO"
+    ],
+    "requiredSkills": [
+      "Gândire analitică și curiozitate investigativă",
+      "Noțiuni despre cum funcționează o aplicație web și ce urme lasă (loguri, cereri HTTP)",
+      "Răbdare și disciplină: monitorizarea înseamnă multă rutină punctată de momente critice",
+      "Atitudine autodidactă: investighezi singur(ă) alertele, cauți semnificația semnalelor și documentația uneltelor înainte de a escalada, iar escaladările vin cu analiza deja făcută",
+      "Disponibilitate de minim 6 ore/săptămână, distribuită pe parcursul săptămânii (monitorizarea nu funcționează comasată într-o singură zi)"
+    ],
+    "desirableSkills": [
+      "Familiaritate cu citirea de loguri sau cu linia de comandă Linux",
+      "Noțiuni despre tipurile comune de atacuri (brute force, injecții, phishing)",
+      "Familiaritate cu o unealtă de monitorizare sau SIEM (orice, inclusiv open-source)",
+      "Noțiuni de rețelistică (IP, porturi, DNS)",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_application_support",
+    "title": "Application Support",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "DevOps",
+    "level": "Voluntar",
+    "reportsTo": "DevOps Lead",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1232.00 – Computer User Support Specialists",
+    "training": "",
+    "purpose": "Monitorizează funcționarea aplicației peviitor.ro în producție și rezolvă sau escaladează problemele semnalate de utilizatori sau de echipele interne.",
+    "responsibilities": [
+      "Monitorizează starea aplicației în producție și identifică disfuncționalități",
+      "Primește și triază sesizări de la utilizatori sau colegi privind probleme tehnice",
+      "Realizează diagnosticare de bază (logs, erori, reproducere pași) înainte de escaladare",
+      "Documentează incidentele și defectele identificate în sistemul de bug tracking",
+      "Escaladează problemele complexe către Back-end, Front-end sau DevOps Lead, cu context clar",
+      "Comunică cu utilizatorii/colegii despre statusul rezolvării problemelor raportate"
+    ],
+    "requiredSkills": [
+      "Diagnosticare și triaj de probleme tehnice",
+      "Documentare clară și reproductibilă a incidentelor",
+      "Comunicare tehnică orientată către utilizator non-tehnic",
+      "Prioritizare a problemelor în funcție de impact si familiarizare cu fluxul de escaladare între suport și dezvoltare",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Interes pentru tehnologie și rezolvare de probleme",
+      "Cunoștințe de bază de utilizare a calculatorului și navigare web",
+      "Răbdare și claritate în comunicare",
+      "Experiență anterioară de suport tehnic, chiar informală — un plus, nu obligatoriu",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_database_administrator",
+    "title": "Database Administrator",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "DevOps",
+    "level": "Voluntar",
+    "reportsTo": "DevOps Lead",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1242.00 – Database Administrators",
+    "training": "",
+    "purpose": "Administrează, optimizează și securizează bazele de date ale peviitor.ro, asigurând integritatea și disponibilitatea datelor.",
+    "responsibilities": [
+      "Configurează, întreține și monitorizează bazele de date de producție și dezvoltare",
+      "Identifică și rezolvă probleme de performanță (query-uri lente, blocaje, indexare)",
+      "Implementează proceduri de backup, recovery și continuitate a datelor",
+      "Gestionează accesul și permisiunile la nivel de bază de date, în corelare cu politica de protecție a datelor",
+      "Colaborează cu Back-end pentru optimizarea schemelor de date și a query-urilor folosite în aplicație",
+      "Documentează structura bazelor de date și modificările efectuate"
+    ],
+    "requiredSkills": [
+      "Administrare de sisteme de gestiune a bazelor de date (SQL/NoSQL)",
+      "Optimizare de performanță și indexare",
+      "Proceduri de backup, recovery și securitate a datelor",
+      "Gândire analitică aplicată depanării problemelor de date",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Cunoștințe de bază de SQL",
+      "Experiență anterioară, chiar minimă, cu un sistem de baze de date (MySQL, PostgreSQL,MongoDB etc.)",
+      "Interes pentru optimizare și structurare de date",
+      "Atenție la detalii, esențială având în vedere sensibilitatea datelor personale gestionate",
+      "E"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_devopslead",
+    "title": "DevOpsLead",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "DevOps",
+    "level": "Voluntar",
+    "reportsTo": "CTO",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1299.08 – Computer Systems Engineers/Architects",
+    "training": "",
+    "purpose": "Coordonează infrastructura, procesele de deployment și fiabilitatea tehnică a peviitor.ro, asigurând integrarea eficientă dintre dezvoltare și operare.",
+    "responsibilities": [
+      "Proiectează și menține infrastructura de hosting, CI/CD și mediile de deployment (dev,staging, producție)",
+      "Coordonează activitatea Database Administrator și Application Support din subordine",
+      "Stabilește procesele de monitorizare, alertare și răspuns la incidente",
+      "Colaborează cu Back-end, Front-end și Mobile pentru integrarea corectă a livrărilor în pipeline",
+      "Ia decizii privind securitatea infrastructurii și gestionarea accesului la sistemele critice",
+      "Realizeaza Onboardingul și mentorează noii membri tehnici din subordine (4-6 săptămâni)",
+      "Raportează starea infrastructurii, riscurile și incidentele către CTO"
+    ],
+    "requiredSkills": [
+      "Administrare de infrastructură cloud/server și pipeline-uri CI/CD",
+      "Automatizare a proceselor de deployment și monitorizare",
+      "Coordonare tehnică de echipă și code/infra review",
+      "Gestionare de incidente și analiză post-mortem",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Experiență cu infrastructură cloud (AWS, GCP, Azure) sau servere Linux",
+      "Cunoștințe de bază despre CI/CD (GitHub Actions, Jenkins, GitLab CI etc.)",
+      "Familiaritate cu containerizare (Docker) — un plus, nu obligatoriu",
+      "Expunere anterioară la coordonare tehnică, chiar informală"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_mobile_lead",
+    "title": "Mobile Lead",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "Mobile",
+    "level": "Voluntar",
+    "reportsTo": "CTO",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1252.00 – Software Developers",
+    "training": "",
+    "purpose": "Coordonează dezvoltarea aplicațiilor mobile ale peviitor.ro (iOS și Android) și asigură coerența tehnică și de experiență între cele două platforme.",
+    "responsibilities": [
+      "Stabilește arhitectura și standardele tehnice comune pentru aplicațiile iOS și Android",
+      "Coordonează activitatea Mobile Specialist iOS și Mobile Specialist Android",
+      "Asigură coerența funcțională și vizuală între cele două platforme, în colaborare cu UI/UX",
+      "Revizuiește codul și deciziile tehnice importante ale specialiștilor din subordine",
+      "Colaborează cu Back-end pentru definirea și integrarea API-urilor consumate de aplicațiile mobile",
+      "Face Onboardingul și mentorează noii Mobile Specialists (4-6 săptămâni)",
+      "Raportează progresul și riscurile tehnice ale dezvoltării mobile către CTO"
+    ],
+    "requiredSkills": [
+      "Arhitectură de aplicații mobile și decizii tehnice cross-platform",
+      "Coordonare tehnică de echipă și code review",
+      "Mentorat tehnic pentru colegi la început de drum",
+      "Raportare executivă (status, riscuri tehnice)",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Experiență de dezvoltare mobilă pe cel puțin una dintre platforme (iOS sau Android)",
+      "Cunoștințe de bază despre cealaltă platformă — un plus, nu obligatoriu",
+      "Expunere anterioară la coordonare tehnică, chiar informală",
+      "Familiaritate cu principii de UI/UX mobil",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_mobile_specialist_android",
+    "title": "Mobile Specialist Android",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "Mobile",
+    "level": "Voluntar",
+    "reportsTo": "Mobile Lead",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1252.00 – Software Developers",
+    "training": "",
+    "purpose": "Dezvoltă și menține aplicația Android a peviitor.ro, oferind o experiență funcțională și fluidă",
+    "responsibilities": [
+      "Implementează funcționalități noi în aplicația Android, conform specificațiilor stabilite de Mobile Lead",
+      "Integrează API-urile furnizate de Back-end în aplicația Android",
+      "Testează și depanează problemele specifice platformei Android",
+      "Optimizează performanța și consumul de resurse al aplicației",
+      "Menține aplicația conformă cu cerințele Google Play (guidelines, versiuni Android)",
+      "Participă la code review pentru codul colegilor din echipa Mobile"
+    ],
+    "requiredSkills": [
+      "Dezvoltare nativă Android (Kotlin/Java, Jetpack Compose)",
+      "Integrare de API-uri și gestionare a datelor în aplicații mobile",
+      "Debugging și optimizare de performanță pe platforma Android",
+      "Publicare și mentenanță de aplicații pe Google Play și Autoformare continuă pe evoluția platformei Android",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Cunoștințe de bază de Kotlin sau Java, sau interes declarat pentru dezvoltare Android",
+      "Experiență anterioară cu Android Studio — un plus, nu obligatoriu",
+      "Interes pentru design de interfețe mobile",
+      "Un dispozitiv sau mediu de testare pentru Android (poate fi discutat ca resursă pusă la dispoziție de organizație)",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_mobile_specialist_ios",
+    "title": "Mobile Specialist iOS",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "Mobile",
+    "level": "Voluntar",
+    "reportsTo": "Mobile Lead",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1252.00 – Software Developers",
+    "training": "",
+    "purpose": "Dezvoltă și menține aplicația iOS a peviitor.ro, oferind o experiență funcțională și fluidă",
+    "responsibilities": [
+      "Implementează funcționalități noi în aplicația iOS, conform specificațiilor stabilite de Mobile Lead",
+      "Integrează API-urile furnizate de Back-end în aplicația iOS",
+      "Testează și depanează problemele specifice platformei iOS",
+      "Optimizează performanța și consumul de resurse al aplicației",
+      "Menține aplicația conformă cu cerințele App Store (guidelines, versiuni iOS)",
+      "Participă la code review pentru codul colegilor din echipa Mobile"
+    ],
+    "requiredSkills": [
+      "Dezvoltare nativă iOS (Swift, SwiftUI/UIKit)",
+      "Testează și depanează problemele specifice platformei iOS",
+      "Optimizează performanța și consumul de resurse al aplicației",
+      "Menține aplicația conformă cu cerințele App Store (guidelines, versiuni iOS)",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Cunoștințe de bază de Swift sau interes declarat pentru dezvoltare iOS",
+      "Experiență anterioară cu Xcode — un plus, nu obligatoriu",
+      "Interes pentru design de interfețe mobile",
+      "Un dispozitiv sau mediu de testare pentru iOS (poate fi discutat ca resursă pusă la dispoziție de organizație)",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_associate_product_manager",
+    "title": "Associate Product Manager",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "Product Management",
+    "level": "Voluntar",
+    "reportsTo": "Product Manager",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1299.09 – Information Technology Project Managers",
+    "training": "",
+    "purpose": "Sprijină Product Manager-ul în activitățile zilnice de produs — research, documentare, întreținerea backlog-ului — învățând în practică meseria de product management.",
+    "responsibilities": [
+      "Menține backlog-ul organizat și actualizat, sub îndrumarea PM-ului (detalii, etichete, statusuri)",
+      "Redactează user stories și criterii de acceptanță pentru funcționalități simple, revizuite de PM",
+      "Efectuează research de bază: analiză competitivă, colectare de feedback de la utilizatori, sinteze",
+      "Pregătește materiale pentru întâlnirile de produs (agende, sinteze de date, note de decizie)",
+      "Urmărește statusul funcționalităților în dezvoltare și semnalează PM-ului întârzierile",
+      "Participă la validarea funcționalităților livrate, alături de PM și QA"
+    ],
+    "requiredSkills": [
+      "Bazele product management-ului: backlog, user stories, prioritizare",
+      "Research de produs și analiză competitivă",
+      "Documentare structurată și pregătire de materiale de decizie",
+      "Colaborare cu echipe tehnice și de design",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Interes demonstrat pentru product management (cursuri, cărți, proiecte personale)",
+      "Abilități bune de scriere și organizare",
+      "Cunoștințe de bază despre produse digitale și cum sunt construite",
+      "Nu e necesară experiență anterioară de PM",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_delivery_manager",
+    "title": "Delivery Manager",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "Product Management",
+    "level": "Voluntar",
+    "reportsTo": "CTO",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1299.09 – Information Technology Project Managers",
+    "training": "",
+    "purpose": "Asigură livrarea predictibilă și la timp a inițiativelor de produs, coordonând fluxul de lucru între echipele de dezvoltare, produs și design, și eliminând blocajele care încetinesc echipele.",
+    "responsibilities": [
+      "Coordonează planificarea livrărilor la nivel de departament: ce se livrează, când și de către cine",
+      "Urmărește progresul inițiativelor cross-echipă și identifică din timp riscurile de întârziere",
+      "Elimină blocajele operaționale (dependențe între echipe, resurse lipsă, decizii întârziate)",
+      "Coordonează direct Product Manager-ul și, prin acesta, întreaga structură de produs",
+      "Raportează către CEO/CTO starea livrărilor și sănătatea generală a proceselor de delivery",
+      "Definește și îmbunătățește procesele de lucru ale departamentului (cadența de planificare, formatul de raportare)",
+      "Facilitează alinierea între prioritățile de produs și capacitatea reală a echipelor de voluntari"
+    ],
+    "requiredSkills": [
+      "Coordonare de livrări la nivel de organizație, nu doar de echipă",
+      "Gestionarea dependențelor și riscurilor cross-echipă",
+      "Proiectare și îmbunătățire de procese de delivery",
+      "Comunicare cu stakeholderi de nivel executiv (CEO/CTO)",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Experiență de project/delivery management (chiar și pe proiecte mici sau non-IT)",
+      "Familiaritate cu metodologii agile (Scrum, Kanban)",
+      "Experiență de lucru cu echipe distribuite/remote",
+      "Capacitate de a lucra cu incertitudine"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_product_manager",
+    "title": "Product Manager",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "Product Management",
+    "level": "Voluntar",
+    "reportsTo": "Delivery Manager",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1299.09 – Information Technology Project Managers",
+    "training": "",
+    "purpose": "Definește ce construiește echipa și de ce, transformând nevoile utilizatorilor și obiectivele",
+    "responsibilities": [
+      "Definește și prioritizează backlog-ul de produs, pe baza nevoilor utilizatorilor și a obiectivelor organizației",
+      "Scrie cerințe clare (user stories, criterii de acceptanță) pentru echipele de dezvoltare",
+      "Colectează și analizează feedback de la utilizatori și date de utilizare a platformei",
+      "Coordonează Scrum Master-ul (procese) și Associate PM-ul (execuție și research), distribuind responsabilități",
+      "Colaborează cu UI/UX pentru definirea soluțiilor înainte de dezvoltare",
+      "Validează funcționalitățile livrate față de cerințele definite, înainte de lansare",
+      "Comunică roadmap-ul și deciziile de produs către echipe și către Delivery Manager",
+      "Ia decizii de compromis (trade-off) între valoare, efort și capacitatea echipei"
+    ],
+    "requiredSkills": [
+      "Prioritizare pe bază de valoare și efort, pe un produs real cu utilizatori real",
+      "Scriere de cerințe și user stories pentru echipe tehnice",
+      "Analiză de date de produs și interpretare de feedback de utilizatori",
+      "Coordonare de oameni fără autoritate formală puternică (specific PM)",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Experiență anterioară de product/project management sau de business analysis",
+      "Familiaritate cu instrumente de management de backlog (GitHub Projects, Jira, Trello)",
+      "Înțelegere de bază a modului în care se construiește software (nu e nevoie să programezi)",
+      "Curiozitate față de utilizatori și date",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_scrum_master",
+    "title": "Scrum Master",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "Product Management",
+    "level": "Voluntar",
+    "reportsTo": "Product Manager",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1299.09 – Information Technology Project Managers",
+    "training": "",
+    "purpose": "Facilitează procesele agile ale echipelor de dezvoltare, asigurându-se că ceremoniile Scrum funcționează, blocajele sunt vizibile și echipa își îmbunătățește continuu modul de lucru.",
+    "responsibilities": [
+      "Facilitează ceremoniile Scrum: planning, daily stand-up, review, retrospectivă",
+      "Identifică și face vizibile blocajele echipei, escaladând către PM/Delivery Manager ce nu poate rezolva direct",
+      "Protejează echipa de întreruperi și schimbări necontrolate de scop în timpul sprintului",
+      "Urmărește și comunică metrici de proces (velocity, sprint completion) fără a le transforma în instrumente de presiune",
+      "Ghidează echipa și noii voluntari în înțelegerea și aplicarea practicilor agile",
+      "Propune și facilitează experimente de îmbunătățire a procesului, pe baza retrospectivelor"
+    ],
+    "requiredSkills": [
+      "Facilitare de întâlniri și procese de grup",
+      "Aplicarea practică a framework-ului Scrum într-o echipă reală",
+      "Identificare și gestionare de blocaje și impedimente",
+      "Interpretare de metrici de proces agile",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Familiaritate teoretică cu Scrum/Agile (curs, certificare PSM/CSM, sau studiu individual)",
+      "Experiență de facilitare de întâlniri sau lucru în echipe agile (în orice rol)",
+      "Abilități bune de comunicare și ascultare activă",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_qa_automation_engineer",
+    "title": "QA Automation Engineer",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "QA",
+    "level": "Voluntar",
+    "reportsTo": "QA Automation Lead",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1253.00 – Software Quality Assurance Analysts and Testers",
+    "training": "",
+    "purpose": "Scrie și menține scripturi de testare automatizată pentru funcționalitățile peviitor.ro, sub",
+    "responsibilities": [
+      "Scrie scripturi de testare automată pentru scenariile alocate de Lead",
+      "Menține și actualizează testele automate existente în funcție de modificările produsului",
+      "Investighează și raportează eșecurile testelor automate (flaky tests, defecte reale)",
+      "Rulează suitele de teste automate și documentează rezultatele",
+      "Colaborează cu QA Automation Engineer Lead pentru prioritizarea scenariilor de automatizat",
+      "Participă la code review pentru scripturile de test scrise de colegi"
+    ],
+    "requiredSkills": [
+      "Scripting/programare aplicată testării",
+      "Utilizare de framework-uri de automatizare a testării",
+      "Debugging de teste automate",
+      "Gândire structurată pentru transformarea unui caz manual în test automat",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Cunoștințe de bază de programare (orice limbaj)",
+      "Interes pentru testare software și automatizare",
+      "Familiaritate minimă cu Git/control de versiuni",
+      "Curiozitate tehnică și dorința de a învăța framework-uri noi",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_qa_automation_engineer_lead",
+    "title": "QA Automation Engineer Lead",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "QA",
+    "level": "Voluntar",
+    "reportsTo": "Tester Manager",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1253.00 – Software Quality Assurance Analysts and Testers",
+    "training": "",
+    "purpose": "Coordonează dezvoltarea și mentenanța suitei de teste automatizate și mentorează echipa de QA Automation Engineers.",
+    "responsibilities": [
+      "Stabilește strategia de automatizare (ce se automatizează, cu ce prioritate, ce framework se folosește)",
+      "Coordonează activitatea QA Automation Engineers și revizuiește codul de test scris de aceștia",
+      "Dezvoltă și menține scripturi/framework-uri de testare automatizată pentru cazurile critice",
+      "Integrează testele automate în fluxul de CI/CD, în colaborare cu Back-end/Front-end",
+      "Face onboardingul și mentorează noii QA Automation Engineers (4-6 săptămâni)",
+      "Raportează starea automatizării și acoperirea testelor către Tester Manager",
+      "Colaborează cu QA Manual Engineer Lead pentru a decide ce scenarii manuale devin candidate de automatizare"
+    ],
+    "requiredSkills": [
+      "Proiectare și implementare de framework-uri de testare automată",
+      "Programare aplicată testării (scripting, selectori, assertions)",
+      "Integrare de teste automate în pipeline-uri CI/CD",
+      "Coordonare tehnică de sub-echipă și code review",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Experiență de programare (orice limbaj) sau de scripting",
+      "Cunoștințe de bază despre framework-uri de automatizare (Selenium, Playwright, Cypress etc.)",
+      "Familiaritate cu principiile CI/CD",
+      "Experiență anterioară de testare manuală, ca fundație pentru automatizare",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_qa_manual_engineer",
+    "title": "QA Manual Engineer",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "QA",
+    "level": "Voluntar",
+    "reportsTo": "QA Manual Engineer Lead",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1253.00 – Software Quality Assurance Analysts and Testers",
+    "training": "",
+    "purpose": "Testează manual funcționalitățile peviitor.ro pentru a identifica defecte și a asigura conformitatea cu cerințele înainte de lansare.",
+    "responsibilities": [
+      "Execută cazuri de testare funcțională, de regresie și de acceptanță conform planului stabilit de Lead",
+      "Documentează defectele identificate, cu pași de reproducere clari, în sistemul de bug tracking",
+      "Verifică remedierea defectelor (retesting) după intervenția echipei de dezvoltare",
+      "Participă la testarea noilor funcționalități înainte de lansare",
+      "Semnalează probleme de uzabilitate observate în timpul testării",
+      "Colaborează cu QA Manual Engineer Lead pentru clarificarea cerințelor neclare"
+    ],
+    "requiredSkills": [
+      "Execuție de teste funcționale și de regresie",
+      "Redactare de rapoarte de defecte clare și reproductibile",
+      "Gândire analitică orientată spre identificarea de cazuri limită (edge cases)",
+      "Familiarizare cu ciclul de dezvoltare software și fluxul QA-Dev",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Interes pentru testare software, fără experiență obligatorie",
+      "Atenție la detalii",
+      "Cunoștințe de bază de utilizare a calculatorului și navigare web",
+      "Curiozitate tehnică și dorința de a înțelege cum funcționează produsul",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_qa_manual_engineer_lead",
+    "title": "QA Manual Engineer Lead",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "QA",
+    "level": "Voluntar",
+    "reportsTo": "Tester Manager",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1253.00 – Software Quality Assurance Analysts and Testers",
+    "training": "",
+    "purpose": "Coordonează activitatea de testare manuală și mentorează echipa de QA Manual Engineers, rămânând în același timp implicat direct în testarea funcțională a produsului.",
+    "responsibilities": [
+      "Elaborează și distribuie planuri de testare manuală pentru funcționalitățile noi și existente ale peviitor.ro",
+      "Coordonează activitatea zilnică a QA Manual Engineers (alocare taskuri, priorități)",
+      "Execută el însuși teste funcționale, de regresie și de acceptanță pe cazurile mai complexe",
+      "Revizuiește și validează rapoartele de bug create de echipă înainte de escaladare către Dev",
+      "Face onboardingul și mentorează noii QA Manual Engineers (4-6 săptămâni)",
+      "Raportează starea testării manuale către Tester Manager",
+      "Colaborează cu QA Automation Engineer Lead pentru a decide ce scenarii se automatizează"
+    ],
+    "requiredSkills": [
+      "Proiectare de scenarii și cazuri de testare (test case design)",
+      "Testare funcțională, de regresie, exploratory testing",
+      "Coordonare de sub-echipă și prioritizare a activității",
+      "Comunicare structurată a defectelor (bug reporting) către Dev",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Experiență anterioară de testare manuală, chiar informală",
+      "Cunoștințe de bază despre ciclul de viață al unui defect (bug lifecycle)",
+      "Familiaritate cu instrumente de bug tracking (Jira, GitHub Issues etc.)",
+      "Atenție la detalii și gândire structurată.",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_tester_manager",
+    "title": "Tester Manager",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "QA",
+    "level": "Voluntar",
+    "reportsTo": "CTO",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1253.00 – Software Quality Assurance Analysts and Testers",
+    "training": "",
+    "purpose": "Coordonează întreaga activitate a departamentului de QA, asigurând că procesele de testare susțin calitatea produsului peviitor.ro, fără a fi implicat direct, zilnic, în execuția testelor.",
+    "responsibilities": [
+      "Planifică și coordonează activitatea echipei de QA (alocare taskuri, priorități, calendar de testare)",
+      "Stabilește și menține procesele, standardele și metodologia de testare ale departamentului",
+      "Asigură legătura dintre QA și celelalte departamente (Dev, Product, Scraping) pentru integrarea testării în fluxul de lucru",
+      "Monitorizează calitatea generală a livrabilelor și raportează starea către CTO/CEO",
+      "Identifică riscuri de calitate și propune măsuri de remediere la nivel de proces, nu doar de bug individual",
+      "Mentorează și dezvoltă membrii echipei de QA (voluntari), inclusiv cei aflați la început de drum",
+      "Recrutează și integrează noi voluntari QA, alături de HR",
+      "Revizuiește și aprobă planuri de testare elaborate de membrii echipei, fără a le scrie el însuși în mod curent"
+    ],
+    "requiredSkills": [
+      "Planificare strategică a proceselor de QA",
+      "Comunicare cross-departamentală și management de stakeholderi",
+      "Leadership și coordonare de echipă tehnică",
+      "Raportare executivă (status, riscuri, metrici de calitate)",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Experiență anterioară de testare software (manuală sau automată)",
+      "Expunere anterioară la coordonare de echipă sau proiect, chiar informală",
+      "Cunoștințe de bază despre metodologii QA (ISTQB, Agile/Scrum)",
+      "Familiaritate cu instrumente de bug tracking (Jira, GitHub Issues etc.)",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_data_scientist",
+    "title": "Data Scientist",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "Scraping",
+    "level": "Voluntar",
+    "reportsTo": "Scraping Lead",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-2051.00 – Data Scientists",
+    "training": "",
+    "purpose": "Asigură că datele colectate de scrapere sunt corecte, curate și utile — de la detectarea",
+    "responsibilities": [
+      "Definește și monitorizează indicatorii de calitate a datelor: completitudine, duplicate, anunțuri expirate, câmpuri invalide",
+      "Construiește verificări automate de calitate pe fluxul de date (validări, alerte la anomalii)",
+      "Investighează problemele de calitate semnalate și identifică sursa: scraper defect, sursă schimbată, procesare greșită",
+      "Curăță și normalizează datele: deduplicare, standardizarea câmpurilor (titluri, orașe, companii)",
+      "Analizează datele platformei și extrage insight-uri: evoluția pieței de joburi IT, tendințe pe orașe/tehnologii",
+      "Pregătește analize pentru celelalte departamente: date de utilizare pentru Product, statistici de impact pentru Fundraising și Marketing",
+      "Explorează îmbunătățiri bazate pe date: potrivire mai bună a căutărilor, clasificarea anunțurilor",
+      "Documentează metodologia analizelor și definițiile metricilor (pentru transfer de cunoaștere)"
+    ],
+    "requiredSkills": [
+      "Cunoștințe de programare pentru lucru cu date, nivel de bază spre mediu",
+      "Noțiuni de SQL și noSQL sau de interogare a datelor structurate",
+      "Gândire analitică și scepticism sănătos față de date",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Noțiuni de statistică descriptivă",
+      "Familiaritate cu vizualizarea datelor (matplotlib, Looker Studio, sau similar)",
+      "Noțiuni despre data quality (validare, deduplicare, normalizare)",
+      "Cunoștințe de bază de machine learning (nu obligatoriu — platforma are nevoie întâi de date curate, apoi de modele)",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_scrapping_developer",
+    "title": "Scraping Developer",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "Scraping",
+    "level": "Voluntar",
+    "reportsTo": "Scraping Lead",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1252.00 – Software Developers",
+    "training": "",
+    "purpose": "Construiește și întreține scraperele care alimentează platforma cu anunțuri de joburi,",
+    "responsibilities": [
+      "Dezvoltă scrapere noi pentru sursele prioritizate de Scraping Lead, urmând pattern-urile echipei",
+      "Repară scraperele stricate: investighează ce s-a schimbat la sursă și adaptează codul",
+      "Validează local datele extrase (complete, corect structurate) înainte de a trimite codul spre review",
+      "Respectă regulile de colectare stabilite de echipă: rate limiting, robots.txt, identificare corectă",
+      "Trimite codul spre review prin pull requests și integrează feedback-ul primit",
+      "Documentează scraperele construite: particularitățile sursei, capcanele cunoscute (pentru transfer de cunoaștere)",
+      "Semnalează Scraping Lead-ului sursele problematice sau zonele gri care necesită o decizie"
+    ],
+    "requiredSkills": [
+      "Cunoștințe de programare ( limbaj la alegere), nivel de bază spre mediu, dovedibile prin proiecte",
+      "Noțiuni despre cum funcționează o pagină web: HTML, DOM, cereri HTTP",
+      "Noțiuni de bază de Git (commit, branch, push)",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Experiență cu o bibliotecă de scraping sau parsing (BeautifulSoup, Scrapy, Playwright, Selenium — orice)",
+      "Noțiuni despre selectoare CSS/XPath",
+      "Noțiuni despre API-uri și formate de date (JSON)",
+      "Familiaritate cu pull requests și code review",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_scrapping_lead",
+    "title": "Scraping Lead",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "Scraping",
+    "level": "Voluntar",
+    "reportsTo": "CTO",
+    "weeklyTime": "6 ore/săptămână",
+    "onetCode": "15-1252.00 – Software Developers",
+    "training": "",
+    "purpose": "Asigură fluxul continuu și legal de date despre joburi către platformă, coordonând tehnic",
+    "responsibilities": [
+      "Definește și menține arhitectura sistemului de scraping: structura scraperelor, orchestrarea rulărilor, monitorizarea eșecurilor",
+      "Stabilește standardele de cod și pattern-urile echipei (structura unui scraper nou, tratarea erorilor, convenții)",
+      "Prioritizează sursele de date: ce site-uri se adaugă, ce scrapere stricate se repară primele, în funcție de impactul asupra platformei",
+      "Face code review pentru echipă și menține calitatea codului intrat în producție",
+      "Mentorează Scraping Developers și distribuie sarcinile calibrat pe nivelul fiecăruia",
+      "Veghează la conformitatea practicilor de colectare: respectarea termenilor site-urilor sursă, robots.txt, rate limiting, colaborare cu Legal & Compliance pe zonele gri",
+      "Colaborează cu Back-end (formatul datelor livrate) și cu Data Scientist (calitatea datelor colectate)",
+      "Documentează arhitectura și deciziile tehnice (pentru transfer de cunoaștere)",
+      "Raportează către CTO starea sistemului: acoperire de surse, rata de eșec, riscuri"
+    ],
+    "requiredSkills": [
+      "Experiență solidă de programare ( limbaj la alegere) și de lucru cu web scraping sau automatizare web",
+      "Înțelegerea tehnică a web-ului: HTTP, HTML/DOM, API-uri, mecanisme anti-bot",
+      "Experiență cu Git și fluxuri colaborative (pull requests, code review)",
+      "Judecată etică și legală de bază asupra colectării de date — a ști când să întrebi Legal înainte de a scrie cod",
+      "Atitudine autodidactă: documentare singur(ă) în cod, documentație și resurse tehnice înainte de a escalada; întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (echipa depinde de review-urile și deciziile tale)"
+    ],
+    "desirableSkills": [
+      "Experiență anterioară de coordonare tehnică sau mentorat",
+      "Familiaritate cu framework-uri de scraping (Scrapy, Playwright, Selenium sau similar) și cu orchestrare de task-uri (cron, cozi, schedulere)",
+      "Noțiuni de baze de date și de pipeline-uri de date",
+      "Experiență cu monitorizare și alerting pe sisteme în producție",
+      "Engleză scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_billing_specialist",
+    "title": "Billing Specialist",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "Finance",
+    "level": "Voluntar",
+    "reportsTo": "Legal Acting Lead",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "43-3021.00 – Billing and Posting Clerks",
+    "training": "",
+    "purpose": "Gestionează documentele financiare primare ale organizației , facturi, plăți, deconturi , și transformă evidențele în rapoarte financiare periodice clare pentru conducere, finanțatori și restul echipei Finance.",
+    "responsibilities": [
+      "Emite și gestionează facturile organizației (către sponsori, parteneri) și verifică corectitudinea facturilor primite de la furnizori",
+      "Urmărește încasările și plățile: cine a plătit, cine nu, ce scadențe urmează",
+      "Procesează deconturile interne (cheltuieli aprobate ale voluntarilor, unde e cazul) conform procedurilor",
+      "Menține evidența documentelor primare organizată și completă, gata de predare către contabilul extern",
+      "Pregătește rapoartele financiare periodice interne: execuție bugetară, situația încasărilor/plăților, sinteze pe categorii de cheltuieli",
+      "Pregătește componenta de evidență financiară a rapoartelor către finanțatori, sub coordonarea Acting Lead-ului",
+      "Menține dashboardul financiar al organizației (Google Sheets) actualizat și lizibil pentru non-finanțiști",
+      "Semnalează Acting Lead-ului anomalile observate în evidențe (dubluri, documente lipsă, abateri de la buget)."
+    ],
+    "requiredSkills": [
+      "Atenție la detalii și acuratețe numerică",
+      "Cunoștințe solide în Excel/Google Sheets",
+      "Organizare și consecvenț",
+      "Atitudine autodidactică",
+      "Disponibilitate minim 6ore/săptămână"
+    ],
+    "desirableSkills": [
+      "Noțiuni contabilitate primară",
+      "Experiență de lucru administraivă sau de lucru cu documente financiare",
+      "Familiaritate cu un program de facturare (SmartBill, FGO etc)",
+      "Noțiuni de vizualizare de date(grafice, dashboarduri)",
+      "Engleză scris-citit, nivel de bază"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_finance_acting_lead",
+    "title": "Finance Acting Lead",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "Finance",
+    "level": "Voluntar",
+    "reportsTo": "CEO",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "11-3031.00 – Financial Managers",
+    "training": "",
+    "purpose": "Coordonează operațional activitatea financiară a organizației:  buget, flux de numerar, disciplina documentelor implementând direcțiile stabilite împreună cu Finance Consultant-ul (mentor) și asigurând interfața cu contabilul extern.",
+    "responsibilities": [
+      "Construiește și urmǎrește bugetul anual al organizației, împreunǎ cu CEO-ul și mentorul, și raporteazǎ abaterile",
+      "Monitorizeazǎ fluxul de numerar și semnaleazǎ din timp riscurile (plǎți viitoare vs. fonduri disponibile)",
+      "Coordoneazǎ circuitul documentelor financiare: colectare, verificare, transmitere cǎtre contabilul extern la termen",
+      "Asigurǎ interfața cu contabilul extern: rǎspunde solicitǎrilor, clarificǎ operațiuni, urmǎrește depunerea declarațiilor",
+      "Distribuie sarcini cǎtre Billing Specialist și urmǎrește calitatea evidențelor și rapoartelor",
+      "Pregǎtește componenta financiarǎ a aplicațiior și rapoartelor de grant, împreunǎ cu Grants Specialist-ul",
+      "Pregǎtește sinteze financiare pentru sesiunile cu mentorul și raportǎri periodice cǎtre CEO",
+      "Menține procedurile financiare interne (cine aprobă, cine plătește, cum se documenteazǎ) și le îmbunătățește."
+    ],
+    "requiredSkills": [
+      "Noțiuni solide de finanțe operaționale",
+      "Rigoare numerică și disciplină documentară",
+      "Cunoștințe avansate de Excel/Google Sheets",
+      "Atitudine autodidacticǎ",
+      "Disponibilitate de minim 6ore/sǎptǎmânǎ"
+    ],
+    "desirableSkills": [
+      "Studii economice finalizate sau în curs",
+      "Noțiuni contabilitate primară",
+      "Familiaritate cu specificul financiar al ONG-urilor",
+      "Experiență de lucru cu un contabil/departament financiar",
+      "Englezǎ scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_finance_consultant",
+    "title": "Finance Consultant",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "Finance",
+    "level": "Voluntar",
+    "reportsTo": "Advisory",
+    "weeklyTime": "2 ore/săptămână",
+    "onetCode": "13-2051.00 – Financial and Investment Analysts",
+    "training": "",
+    "purpose": "Oferă direcție strategică și mentorat echipei de Finance, pe baza experienței profesionale acumulate, validând deciziile financiare cu miză ridicată , rol de tip pro bono, fără autoritate ierarhică, cu implicare de 2–3 ore pe săptămână.",
+    "responsibilities": [
+      "Definește, împreună cu Acting Lead-ul și CEO-ul, cadrul financiar al organizației: structura bugetului, principiile de aprobare, pragurile de decizie",
+      "Validează deciziile financiare cu miză ridicată (angajamente mari, bugete de grant, modificări de proceduri)",
+      "Mentorează Acting Lead-ul în sesiuni regulate de lucru (2–3 ore/săptămână), pe baza sintezelor pregătite de acesta",
+      "Revizuiește componenta financiară a aplicațiilor de grant importante înainte de depunere",
+      "Ajută echipa să evite greșeli costisitoare: bugete nerealiste, cheltuieli neeligibile pe granturi, lacune de procedură)",
+      "Transferă know-how structurat: modele de buget, principii de control intern, bune practici de raportare"
+    ],
+    "requiredSkills": [
+      "Experiență profesională solidă în finanțe, contabilitate sau audit (3+ ani) )",
+      "Capacitatea de a explica noțiuni financiare pe înțelesul non-finanțiștilor",
+      "Disponibilitatea de a ghida fără a rezolva în locul echipei: răspunzi la sinteze documentate cu direcție și validare, încurajând autonomia, nu dependența de tine",
+      "Disponibilitate constantă de 2–3 ore pe săptămână,  consecvența contează mai mult decât volumul"
+    ],
+    "desirableSkills": [
+      "Experiență cu finanțele ONG-urilor: contabilitatea asociațiilor, fonduri nerambursabile, raportare către finanțatori",
+      "Calificare profesională (expert contabil CECCAR, auditor, ACCA sau echivalent)",
+      "Experiență anterioară de mentorat sau de coordonare a juniorilor",
+      "Familiaritate cu sectorul non-profit din România"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_grants_specialist",
+    "title": "Grants Specialist",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "Fundraising&Partnership",
+    "level": "Voluntar",
+    "reportsTo": "Fundraising Acting Lead",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "13-1131.00 – Fundraisers",
+    "training": "",
+    "purpose": "Identifică oportunități de finanțare nerambursabilă potrivite organizației și redactează  aplicații de grant competitive, gestionând procesul de la identificare până la raportarea către finanțator.",
+    "responsibilities": [
+      "Monitorizează constant sursele de granturi relevante (fonduri europene, fundații private, programe naționale, finanțatori tech)",
+      "Evaluează eligibilitatea și potrivirea fiecărei oportunități cu misiunea și capacitatea organizației",
+      "Redactează aplicații de grant: narativ de proiect, obiective, buget, indicatori de impact",
+      "Colectează de la celelalte departamente informațiile necesare aplicațiilor (date de utilizare, planuri, CV-uri de echipă)",
+      "Menține calendarul de deadline-uri și evidența aplicațiilor depuse (câștigate, respinse, în evaluare)",
+      "Gestionează raportarea către finanțatori pentru granturile câștigate (rapoarte narative și financiare, în colaborare cu Legal/Finance)",
+      "Arhivează feedback-ul primit la aplicațiile respinse și îl transformă în îmbunătățiri pentru următoarele"
+    ],
+    "requiredSkills": [
+      "Scriere structurată și clară în limba română",
+      "Engleză scris-citit, nivel funcțional (multe ghiduri și aplicații sunt în engleză)",
+      "Atenție la detalii, aplicațiile de grant au cerințe formale stricte, iar o omisiune poate descalifica",
+      "Atitudine autodidactă: studiezi singur(ă) ghidurile finanțatorilor, cerințele de eligibilitate și exemple de aplicații câștigătoare înainte de a cere ajutor.",
+      "Disponibilitate de minim 6 ore/săptămână, cu flexibilitate în perioadele de deadline"
+    ],
+    "desirableSkills": [
+      "Noțiuni despre sectorul ONG sau despre finanțările nerambursabile",
+      "Familiaritate cu structura unei aplicații de grant (obiective, activități, buget, indicatori)",
+      "Experiență de bază cu Excel/Google Sheets",
+      "Înlinație spre scriere persuasivă"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_fundraising_acting_lead",
+    "title": "Fundraising Acting Lead",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "Fundraising&Partnership",
+    "level": "Voluntar",
+    "reportsTo": "CEO",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "11-2032.00 – Public Relations and Fundraising Managers",
+    "training": "",
+    "purpose": "Coordonează operațional activitatea zilnică de fundraising a organizației, implementând strategia stabilită împreună cu Fundraising Consultant-ul (mentor) și asigurând continuitatea eforturilor de atragere de fonduri.",
+    "responsibilities": [
+      "Coordonează execuția zilnică a activităților de fundraising: campanii de donații, aplicații la finanțări, evenimente",
+      "Menține evidența pipeline-ului de finanțare (surse identificate, aplicații în lucru, statusuri, deadline-uri)",
+      "Implementează planurile de fundraising dezvoltate împreună cu mentorul, adaptându-le la capacitatea reală a echipei",
+      "Distribuie sarcini către Partnership Coordinator și Grants Specialist și urmărește progresul",
+      "Pregătește sintezele și materialele pentru sesiunile de lucru cu Fundraising Consultant-ul",
+      "Cercetează surse noi de finanțare potrivite profilului organizației (granturi, sponsorizări, donații individuale)",
+      "Raportează către CEO progresul și rezultatele activității de fundraising"
+    ],
+    "requiredSkills": [
+      "Comunicare scrisă și verbală clară în limba română",
+      "Abilități de organizare și urmărire riguroasă a termenelor",
+      "Atitudine autodidactă: documentare singur(ă) despre mecanismele de finanțare, procese și bune practici din sector înainte de a apela la mentor: sesiunile cu acesta sunt pentru direcție și decizii, nu pentru informații pe care le puteai găsi singur(ă)",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (rolul presupune continuitate, nu implicare sporadică)"
+    ],
+    "desirableSkills": [
+      "Engleză scris-citit, nivel funcțional",
+      "Experiență în ONG-uri sau proiecte de voluntariat, în orice rol",
+      "Noțiuni despre sursele de finanțare ale sectorului non-profit (granturi, sponsorizări, donații)",
+      "Experiență de bază în coordonarea unei echipe mici sau a unui proiect",
+      "Interes pentru sectorul non-profit și mecanismele lui de funcționare"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_partnership_coordinator",
+    "title": "Partnership Coordinator",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "Fundraising&Partnership",
+    "level": "Voluntar",
+    "reportsTo": "Fundraising Acting Lead",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "13-1131.00 – Fundraisers",
+    "training": "",
+    "purpose": "Identifică, inițiază și menține relații de parteneriat cu companii, instituții și alte organizații, transformând interesul extern în colaborări concrete care susțin misiunea organizației.",
+    "responsibilities": [
+      "Cercetează și identifică potențiali parteneri (companii cu programe CSR, instituții de învățământ, alte ONG-uri, comunități tech)",
+      "Redactează și trimite propuneri de parteneriat personalizate",
+      "Menține relația cu partenerii existenți: comunicare regulată, rapoarte de impact, reînnoiri de colaborare",
+      "Gestionează evidența partenerilor (CRM sau echivalent simplu): contacte, istoricul discuțiilor, statusul fiecărei relații",
+      "Coordonează livrarea angajamentelor față de parteneri (vizibilitate, rapoarte, evenimente comune), împreună cu departamentele relevante",
+      "Reprezintă organizația în întâlniri cu potențiali parteneri, alături de Acting Lead sau CEO când miza e mare"
+    ],
+    "requiredSkills": [
+      "Comunicare scrisă și verbală foarte bună în limba română",
+      "Organizare și disciplină în follow-up,  relațiile de parteneriat se pierd prin tăcere",
+      "Atitudine autodidactă: cercetezi singur(ă) companiile, programele lor de CSR și modul în care funcționează parteneriatele ONG–business, cerând sprijin abia după o documentare proprie, cu context despre ce ai aflat deja",
+      "Disponibilitate de minim 6 ore/săptămână"
+    ],
+    "desirableSkills": [
+      "Engleză conversațională, scris și vorbit",
+      "Experiență de vânzări, business development sau relaționare cu clienți (orice nivel)",
+      "Noțiuni despre CSR și motivațiile companiilor de a susține ONG-uri",
+      "Confort cu outreach-ul la rece (cold outreach)",
+      "Familiaritate cu un instrument de tip CRM sau cu evidența structurată a contactelor"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_fundraising_consultant",
+    "title": "Fundraising Consultant",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "Fundraising&Partnership",
+    "level": "Voluntar",
+    "reportsTo": "Advisory",
+    "weeklyTime": "2 ore/săptămână",
+    "onetCode": "13-1131.00 – Fundraisers",
+    "training": "",
+    "purpose": "Oferă direcție strategică și mentorat echipei de fundraising, pe baza experienței profesionale acumulate, fără a deține autoritate ierarhică: rol de tip pro bono, cu implicare de 2–3 ore pe săptămână.",
+    "responsibilities": [
+      "Definește, împreună cu Acting Lead-ul și CEO-ul, strategia de fundraising a organizației",
+      "Revizuiește și oferă feedback pe materialele majore înainte de trimitere (aplicații de grant, propuneri de sponsorizare)",
+      "Mentorează Acting Lead-ul în sesiuni regulate de lucru (2–3 ore/săptămână)",
+      "Deschide uși: facilitează introduceri către finanțatori, sponsori sau parteneri din rețeaua proprie, acolo unde este posibil",
+      "Ajută echipa să evite greșeli costisitoare (aplicații nepotrivite, poziționare greșită, promisiuni nerealiste către finanțatori)",
+      "Transferă know-how structurat: template-uri, procese, bune practici din experiența profesională proprie"
+    ],
+    "requiredSkills": [
+      "Experiență profesională solidă în fundraising, dezvoltare de business sau sectorul non-profit (3+ ani)",
+      "Capacitatea de a oferi feedback constructiv și direcție strategică",
+      "Disponibilitatea de a ghida fără a rezolva în locul echipei: răspunzi la întrebări documentate cu direcție și context, încurajând autonomia, nu dependența de tine",
+      "Disponibilitate constantă de 2–3 ore pe săptămână,  consecvența contează mai mult decât volumul"
+    ],
+    "desirableSkills": [
+      "Rețea de contacte relevantă pentru finanțare (finanțatori, CSR corporate, fundații)",
+      "Experiență anterioară de mentorat, coaching sau formare de oameni",
+      "Familiaritate cu specificul sectorului ONG din România (cadru legal, surse de finanțare locale)",
+      "Experiență de colaborare cu echipe de voluntari"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_legal_consultant_mentor",
+    "title": "Legal Consultant (Mentor)",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "Legal&Compliance",
+    "level": "Voluntar",
+    "reportsTo": "Advisory",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "23-1011.00 – Lawyers",
+    "training": "",
+    "purpose": "Oferă expertiză juridică de nivel avocat și mentorat echipei de Legal & Compliance, validând documentele și deciziile cu miză ridicată, fără a deține autoritate ierarhică — rol de tip pro bono, cu implicare de 2–3 ore pe săptămână.",
+    "responsibilities": [
+      "Valideazǎ documentele juridice cu mizǎ ridicatǎ înainte de semnare/publicare (contracte cu terți, politici cu efecte legale, poziții oficiale)",
+      "Mentoreazǎ Acting Lead-ul în sesiuni regulate de lucru (2-3 ore/sǎptǎmânǎ), pe baza sintezelor pregǎtite de acesta",
+      "Stabilește, împreunǎ cu Acting Lead-ul şi CEO-ul, limitele de competențǎ internǎ: ce rezolvǎ echipa singurǎ și ce necesitǎ obligatori validarea sa",
+      "Consiliazǎ organizația pe teme juridice de fond: structurǎ juridicǎ, rǎspundere, proprietate intelectualǎ, relația cu autoritǎțile",
+      "Ajutǎ echipa sǎ evite greșeli costisitoare: clauze problematice, angajamente riscante, interpretǎri greșite ale legislației",
+      "Transferǎ know-how structurat: modele de documente, principii de redactare, logica din spatele soluțiilor juridice"
+    ],
+    "requiredSkills": [
+      "Calitate de avocat sau consilier juridic cu drept de executare a profesiei",
+      "Capacitatea de a explica juridic pe înțelesul non-juriștilor",
+      "Disponibilitatea de a ghida echipa",
+      "Disponibilitate constantǎ de 2-3h/sǎptǎmânǎ"
+    ],
+    "desirableSkills": [
+      "Experiențǎ cu dreptul ONG-urilor",
+      "Experiențǎ cu domeniul tech/digital",
+      "Experiențǎ anterioarǎ de mentorat",
+      "Familiaritatea cu activitatea pro-bono/sectorul non-profit"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_legal_compliance_acting_lead",
+    "title": "Legal & Compliance Acting Lead",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "Legal&Compliance",
+    "level": "Voluntar",
+    "reportsTo": "CEO",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "11-1021.00 – General and Operations Managers",
+    "training": "",
+    "purpose": "Coordonează operațional activitatea juridică și de conformitate a organizației, implementând direcțiile stabilite împreună cu Legal Consultant-ul (mentor) și asigurând că documentele, politicile și procesele organizației respectă cadrul legal aplicabil.",
+    "responsibilities": [
+      "Coordonează activitatea curentă a departamentului: solicitări juridice de la alte departamente, calendar de conformitate, documente în lucru",
+      "Pregătește și actualizează documentele juridice recurente ale organizației (contracte de voluntariat, acorduri, regulamente interne), pe baza modelelor validate de mentor",
+      "Efectuează cercetare juridică preliminară pe temele noi și pregătește sinteze documentate pentru sesiunile cu Legal Consultant-ul",
+      "Urmărește obligațiile legale periodice ale organizației (raportări, actualizări statutare, termene) și menține calendarul de conformitate",
+      "Distribuie sarcini către Compliance Officer și urmărește progresul pe zona GDPR",
+      "Filtrează solicitările juridice: rezolvă direct ce e rutină documentată, escaladează la mentor doar ce necesită expertiză de avocat",
+      "Menține biblioteca juridică internă a organizației: modele de documente, decizii anterioare, interpretări validate"
+    ],
+    "requiredSkills": [
+      "Studii juridice finalizate sau în curs",
+      "Rigoare în exprimare scrisǎ-în juridic",
+      "Discernǎmânt",
+      "Atitudine autodidacticǎ",
+      "Disponibilitate de minim 6ore/sǎptǎmânǎ"
+    ],
+    "desirableSkills": [
+      "Familiaritate cu legislația ONG-urilor",
+      "Noțiuni de GDPR și de protecția datelor",
+      "Experiențǎ de redactare/revizuire contracte",
+      "Englezǎ juridicǎ scris-citit, nivel funcțional",
+      "Experiențǎ cu mediul ONG/voluntariat"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_compliance_officer_gdpr",
+    "title": "Compliance Officer (GDPR)",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "Legal&Compliance",
+    "level": "Voluntar",
+    "reportsTo": "Legal Acting Lead",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "13-1041.00 – Compliance Officers",
+    "training": "",
+    "purpose": "Asigură conformitatea organizației cu legislația de protecție a datelor (GDPR, Legea 190/2018), operând procesele de protecție a datelor în practica de zi cu zi și fiind punctul de contact intern pentru orice întrebare legată de date personale.",
+    "responsibilities": [
+      "Menține evidența activitǎților de prelucrare a datelor personale (registrul de prelucrǎri) actualizatǎ",
+      "Aplicǎ politica de retenție a datelor, verificǎ periodic respectarea termenelor și coordoneazǎ ștergerile, inclusiv în structura de foldere restricționate din Drive",
+      "Verificǎ conformitatea GDPR a proceselor noi înainte de lansare (formulare noi, unelte noi, campanii de comunicare) - principiul privacy by design",
+      "Instruiește voluntarii noi pe regulile de bazǎ de protecție a datelor, în colaborare cu People & Culture la onboarding",
+      "Monitorizeazǎ incidentele potențiale de securitate a datelor și escaladeazǎ imediat cǎtre Acting Lead și Legal Consultant orice suspiciune de breșǎ",
+      "Urmǎrește evoluțiile legislative și ghidurile ANSPDCP/EDPB relevante pentru organizație"
+    ],
+    "requiredSkills": [
+      "Cunoașterea principiilor GDPR",
+      "Rigoare și consecvențǎ",
+      "Discreție",
+      "Atitudine autodidacticǎ",
+      "Disponibilitate de minim 6ore/sǎptǎmânǎ"
+    ],
+    "desirableSkills": [
+      "Studii juridice/securitate informaticǎ/experiențǎ lucru cu date personale",
+      "Familiaritate cu GDPR aplicat",
+      "Noțiuni de securitate a informației",
+      "Familiaritate cu Google Workspace",
+      "Englezǎ scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_social_media_manager",
+    "title": "Social Media Manager",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "Marketing&Communication",
+    "level": "Voluntar",
+    "reportsTo": "Marketing Acting Lead",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "27-3031.00 – Public Relations Specialists",
+    "training": "",
+    "purpose": "Gestionează prezența organizației pe rețelele sociale și creează conținutul care o alimentează — de la planificare și redactare până la publicare, interacțiune cu comunitatea și analiza rezultatele.",
+    "responsibilities": [
+      "Planifică și menține calendarul de conținut pentru canalele organizației (LinkedIn, Facebook, Instagram și altele, după caz)",
+      "Creează conținutul: texte, materiale vizuale simple (Canva sau similar), formate video scurte unde e cazul",
+      "Publică și programează postările, adaptând mesajul la specificul fiecărei platforme",
+      "Interacționează cu comunitatea: răspunde la comentarii și mesaje, cultivă conversațiile relevante",
+      "Urmărește performanța conținutului (reach, engagement) și ajustează abordarea pe baza datelor",
+      "Sprijină campaniile celorlalte departamente cu conținut dedicat (recrutare de voluntari, fundraising, lansări de produs)",
+      "Documentează vocea și regulile de comunicare ale organizației (ghid de ton), pe măsură ce le rafinează"
+    ],
+    "requiredSkills": [
+      "Scriere foarte bună în limba română: clară, adaptabilă la formate scurte, fără greșeli",
+      "Familiaritate practică cu cel puțin două platforme sociale relevante (ca utilizator activ, minimum)",
+      "Simț estetic de bază și consecvență vizuală",
+      "Atitudine autodidactă: urmărești singur(ă) schimbările platformelor, formatele care funcționează și bunele practici din social media, cerând sprijin abia după o documentare proprie",
+      "Disponibilitate de X ore/săptămână, cu prezență distribuită pe parcursul săptămânii (social media nu funcționează în avans total)"
+    ],
+    "desirableSkills": [
+      "Experiență de administrare a unei pagini/comunități (inclusiv proiecte personale sau de facultate)",
+      "Familiaritate cu unelte de creație și programare de conținut (Canva, Buffer, Meta Business Suite sau similar)",
+      "Noțiuni de copywriting și storytelling",
+      "Engleză scris-citit, nivel funcțional",
+      "Noțiuni de editare video pentru formate scurte (Reels, TikTok)"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_marketing_acting_lead",
+    "title": "Marketing Acting Lead",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "Marketing&Communication",
+    "level": "Voluntar",
+    "reportsTo": "CEO",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "11-2021.00 – Marketing Managers",
+    "training": "",
+    "purpose": "Coordonează operațional activitatea de marketing și comunicare a organizației, implementând strategia stabilită împreună cu Marketing Consultant-ul (mentor) și asigurând coerența mesajelor pe toate canalele.",
+    "responsibilities": [
+      "Coordonează execuția zilnică a activităților de marketing: calendar de conținut, campanii, materiale de comunicare",
+      "Distribuie sarcini către Social Media Manager, PR Specialist și SEO Specialist și urmărește progresul",
+      "Implementează planurile de marketing dezvoltate împreună cu mentorul, adaptându-le la capacitatea reală a echipei",
+      "Asigură coerența identității și tonului organizației pe toate canalele de comunicare",
+      "Urmărește metrici de bază (trafic, engagement, notorietate) și pregătește sinteze pentru sesiunile cu mentorul",
+      "Colaborează cu Fundraising & Partnerships pentru materialele destinate finanțatorilor și partenerilor",
+      "Raportează către CEO progresul și rezultatele activității de marketing"
+    ],
+    "requiredSkills": [
+      "Comunicare scrisă foarte bună în limba română",
+      "Abilități de organizare și coordonare a mai multor fluxuri de lucru în paralel",
+      "Atitudine autodidactă: documentare singur(ă) despre canale, unelte și bune practici de marketing înainte de a apela la mentor, sesiunile cu acesta sunt pentru direcție și decizii, nu pentru informații pe care le puteai găsi singur(ă)",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă"
+    ],
+    "desirableSkills": [
+      "Engleză scris-citit, nivel funcțional",
+      "Experiență de bază în marketing, comunicare sau gestionarea unei prezențe online (inclusiv proiecte personale)",
+      "Noțiuni despre marketing digital: social media, email, SEO, conținut",
+      "Experiență de coordonare a unei echipe mici sau a unui proiect",
+      "Familiaritate cu unelte de bază (Canva, Google Analytics, platforme de social media)"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_marketing_consultant_mentor",
+    "title": "Marketing Consultant (Mentor)",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "Marketing&Communication",
+    "level": "Voluntar",
+    "reportsTo": "Advisory",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "13-1161.00 – Market Research Analysts and Marketing Specialists",
+    "training": "",
+    "purpose": "Oferă direcție strategică și mentorat echipei de marketing, pe baza experienței profesionale acumulate, fără a deține autoritate ierarhică — rol de tip pro bono, cu implicare de 2–3 ore pe săptămână.",
+    "responsibilities": [
+      "Definește, împreună cu Acting Lead-ul și CEO-ul, strategia de marketing și poziționarea organizației",
+      "Revizuiește și oferă feedback pe materialele și campaniile majore înainte de lansare",
+      "Mentorează Acting Lead-ul în sesiuni regulate de lucru (2–3 ore/săptămână)",
+      "Ajută echipa să evite greșeli costisitoare (poziționare confuză, mesaje nealiniate cu misiunea, efort investit în canale nepotrivite)",
+      "Transferă know-how structurat: framework-uri, procese, bune practici din experiența profesională proprie",
+      "Facilitează, unde e posibil, contacte din industrie utile organizației (media, creatori, comunități)"
+    ],
+    "requiredSkills": [
+      "Experiență profesională solidă în marketing sau comunicare (3+ ani)",
+      "Capacitatea de a oferi feedback constructiv și direcție strategică",
+      "Disponibilitatea de a ghida fără a rezolva în locul echipei: răspunzi la întrebări documentate cu direcție și context, încurajând autonomia, nu dependența de tine",
+      "Disponibilitate constantă de 2–3 ore pe săptămână,  consecvența contează mai mult decât volumul"
+    ],
+    "desirableSkills": [
+      "Experiență de marketing digital pe bugete mici sau în organizații mici (startup, ONG)",
+      "Experiență anterioară de mentorat, coaching sau formare de oameni",
+      "Familiaritate cu sectorul ONG din România și cu specificul comunicării non-profit",
+      "Rețea de contacte relevantă (media, comunități tech, creatori de conținut)"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_pr_specialist",
+    "title": "PR Specialist",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "Marketing&Communication",
+    "level": "Voluntar",
+    "reportsTo": "Marketing Acting Lead",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "27-3031.00 – Public Relations Specialists",
+    "training": "",
+    "purpose": "Sarcini și responsabilități:",
+    "responsibilities": [
+      "Redactează comunicate de presă și materiale pentru media (lansări, parteneriate, rezultate, evenimente)",
+      "Construiește și menține o bază de contacte media relevante (presă generalistă, tech, educație, HR)",
+      "Propune și plasează subiecte în presă: pitch-uri către jurnaliști, participări la interviuri, articole de opinie",
+      "Pregătește reprezentanții organizației pentru aparițiile publice (mesaje cheie, întrebări anticipate)",
+      "Monitorizează mențiunile organizației în spațiul public și semnalează situațiile sensibile",
+      "Colaborează cu Social Media Manager-ul pentru coerența mesajelor între canalele proprii și cele externe",
+      "Menține arhiva de apariții media a organizației (util și pentru aplicațiile de grant)"
+    ],
+    "requiredSkills": [
+      "Scriere impecabilă în limba română.",
+      "Comunicare verbală sigură și diplomatică",
+      "Atitudine autodidactă: studiezi singur(ă) cum funcționează presa, ce caută jurnaliștii și cum se scrie un pitch bun, cerând sprijin abia după o documentare proprie",
+      "Disponibilitate de min 6 ore/săptămână, cu flexibilitate când apar oportunități media cu termen scurt"
+    ],
+    "desirableSkills": [
+      "Experiență de PR, jurnalism sau comunicare (inclusiv presă studențească, bloguri, proiecte de voluntariat)",
+      "Contacte în presă sau în comunitățile media locale",
+      "Noțiuni despre cum funcționează o redacție și ce transformă o informație în știre",
+      "Engleză scris-vorbit, nivel conversațional",
+      "Familiaritate cu unelte de monitorizare media"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_seo_specialist",
+    "title": "SEO Specialist",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "Marketing&Communication",
+    "level": "Voluntar",
+    "reportsTo": "Marketing Acting Lead",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "13-1161.00 – Market Research Analysts and Marketing Specialists",
+    "training": "",
+    "purpose": "Crește vizibilitatea organică a platformei peviitor.ro în motoarele de căutare, optimizând conținutul și structura site-ului astfel încât candidații să găsească platforma exact când caută un loc de muncă.",
+    "responsibilities": [
+      "Efectuează research de cuvinte cheie relevante pentru piața muncii din România și pentru misiunea organizației",
+      "Optimizează on-page paginile platformei: titluri, meta descrieri, structură de headinguri, conținut",
+      "Colaborează cu echipele de dezvoltare (Front-end, Back-end) pentru aspectele tehnice de SEO: viteză, indexare, date structurate, sitemap",
+      "Monitorizează pozițiile, traficul organic și comportamentul de căutare (Google Search Console, Analytics)",
+      "Analizează competiția (alte platforme de joburi) și identifică oportunități de conținut și poziționare",
+      "Propune subiecte de conținut SEO și colaborează cu Social Media Manager-ul pentru realizarea lor",
+      "Documentează bunele practici SEO ale organizației, pentru continuitate"
+    ],
+    "requiredSkills": [
+      "Înțelegerea conceptelor de bază ale căutării online: cum funcționează un motor de căutare, ce înseamnă intenție de căutare",
+      "Gândire analitică și confort cu lucrul pe date",
+      "Atitudine autodidactă: SEO se învață în mare parte din documentație, experimente și comunități de profil ,cercetezi singur(ă) înainte de a cere ajutor, iar întrebările vin însoțite de ce ai încercat deja",
+      "Disponibilitate de min 6 ore/săptămână"
+    ],
+    "desirableSkills": [
+      "Experiență de bază cu Google Search Console și Google Analytics",
+      "Familiaritate cu un instrument SEO (Ahrefs, Semrush, Screaming Frog — inclusiv versiuni gratuite)",
+      "Noțiuni de HTML și înțelegerea structurii unei pagini web",
+      "Noțiuni de content writing orientat pe căutare",
+      "Engleză scris-citit, nivel funcțional (majoritatea resurselor SEO sunt în engleză)"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_volunteer_experience_learning_coordinator",
+    "title": "Volunteer Experience & Learning Coordinator",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "People&Culture",
+    "level": "Voluntar",
+    "reportsTo": "HR Manager",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "11-3131.00 – Training and Development Managers",
+    "training": "",
+    "purpose": "Are grijă de experiența voluntarului de la sosire până la plecare ( onboarding, integrare, engagement)  și acoperă nevoile punctuale de învățare ale organizației, de la analiza nevoilor până la designul intervențiilor, într-o cultură în care regula este autodidaxia, iar trainingul excepția.",
+    "responsibilities": [
+      "Derulează onboarding-ul noilor voluntari după procesul standardizat: primire, orientare, conectare cu echipa și mentorul/leadul",
+      "Urmărește integrarea voluntarilor în primele săptămâni (check-in-uri) și semnalează din timp riscul de abandon",
+      "Menține pulsul comunității: activitate pe Discord, momente de recunoaștere, colectare periodică de feedback",
+      "Coordonează logistica evenimentelor interne (întâlniri de comunitate, sesiuni de cunoaștere)",
+      "Derulează interviuri de exit și sintetizează concluziile pentru HR Manager",
+      "Identifică nevoile reale de învățare (analiza nevoilor), deosebind ce se rezolvă prin autodidaxie de ce cere o intervenție organizată",
+      "Proiectează intervențiile de învățare atunci când sunt justificate: sesiuni interne, ateliere cu mentori, resurse structurate",
+      "Curatoriază resurse de învățare per familie de roluri (ghiduri, cursuri gratuite, documentație), în sprijinul culturii autodidacte",
+      "Evaluează efectul intervențiilor de învățare și documentează ce a funcționat"
+    ],
+    "requiredSkills": [
+      "Abilitǎți interpersonale foarte bune",
+      "Organizare și consecvențǎ",
+      "Comunicare scrisǎ+verbalǎ clarǎ",
+      "Atitudine autodidacticǎ",
+      "Disponibilitate de min 6ore/sǎptǎmânǎ"
+    ],
+    "desirableSkills": [
+      "Experiențǎ de lucru cu voluntarii",
+      "Noțiuni de instructional design",
+      "Familiaritate cu Discordul",
+      "Noțiuni de analiza nevoilor de training",
+      "Engleza scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_hr_generalist",
+    "title": "HR Generalist",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "People&Culture",
+    "level": "Voluntar",
+    "reportsTo": "HR Manager",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "13-1071.00 – Human Resources Specialists",
+    "training": "",
+    "purpose": "Operează procesele HR de zi cu zi ale organizației: recrutare, documente, evidențe, onboarding, asigurând că infrastructura proiectată la nivel de departament funcționează în practică pentru fiecare voluntar.",
+    "responsibilities": [
+      "Gestionează procesul de recrutare: publicare anunțuri, triere aplicații, programare interviuri, comunicare cu candidații",
+      "Administrează documentele voluntarilor: contracte de voluntariat, fișe de voluntar, acorduri GDPR",
+      "Menține evidențele HR actualizate (registrul voluntarilor, statusuri, istoricul colaborărilor), în conformitate cu politica de protecție a datelor",
+      "Derulează onboarding-ul administrativ al noilor voluntari, împreună cu HR Manager-ul, până la standardizarea procesului",
+      "Răspunde întrebărilor curente ale voluntarilor legate de procese, documente și drepturi/obligații",
+      "Sprijină HR Manager-ul în implementarea politicilor noi și colectează feedback din teren despre cum funcționează",
+      "Pregătește raportări periodice simple: număr de voluntari activi, recrutări în curs, fluctuație"
+    ],
+    "requiredSkills": [
+      "Organizare riguroasǎ și atenție la detalii",
+      "Comunicare scrisǎ și verbalǎ clarǎ",
+      "Discreție și eticǎ profesionalǎ",
+      "Atitudine autodidacticǎ",
+      "Disponibilitate de Xore/sǎptǎmânǎ"
+    ],
+    "desirableSkills": [
+      "Experiențǎ anterioarǎ în HR",
+      "Noțiuni de organizational development",
+      "Experiențǎ în ONG-uri",
+      "Familiaritate cu O*NET",
+      "Engleza scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_hr_manager",
+    "title": "HR Manager",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "People&Culture",
+    "level": "Voluntar",
+    "reportsTo": "CEO",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "11-3121.00 – Human Resources Managers",
+    "training": "",
+    "purpose": "Construiește și conduce funcția de People & Culture a organizației: de la infrastructura HR (politici, procese, roluri) până la dezvoltarea organizațională: structură, cultură și modul în care organizația crește sănătos.",
+    "responsibilities": [
+      "Proiectează și menține arhitectura organizațională: organigramă, catalog de roluri, cadre de mobilitate internă",
+      "Dezvoltă și actualizează politicile HR ale organizației (politica de voluntariat, proprietate intelectuală, protecția datelor, etc.)",
+      "Coordonează echipa de People & Culture și distribuie responsabilitățile în interiorul departamentului",
+      "Coordonează procesele de recrutare pentru rolurile cheie, împreună cu leadurile de departament",
+      "Proiectează procesele ciclului de viață al voluntarului: onboarding, evaluare, recunoaștere, offboarding",
+      "Consiliază CEO-ul și leadurile pe teme de structură, roluri și dinamică de echipă (componenta OD)",
+      "Gestionează situațiile sensibile de people management (conflicte, plecări, feedback dificil)",
+      "Asigură conformitatea proceselor HR cu cadrul legal aplicabil (Legea 78/2014, GDPR)"
+    ],
+    "requiredSkills": [
+      "Cunoștințe solide de HR",
+      "Înțelegerea legislației voluntarilor",
+      "Discreție și eticǎ profesionalǎ",
+      "Atitudine autodidacticǎ",
+      "Disponibilitate minim 6h/sǎptǎmânǎ"
+    ],
+    "desirableSkills": [
+      "Experiențǎ anterioarǎ în HR",
+      "Noțiuni de organizational development",
+      "Experiențǎ în ONG-uri",
+      "Familiaritate cu O*NET",
+      "Engleza scris-citit, nivel funcțional"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  },
+  {
+    "id": "vol_wellbeing_career_coach",
+    "title": "Wellbeing / Career Coach",
+    "badge": "Fișă Voluntar",
+    "category": "Nontech",
+    "department": "People&Culture",
+    "level": "Voluntar",
+    "reportsTo": "HR Manager",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "21-1012.00 – Educational, Guidance, and Career Counselors and Advisors",
+    "training": "",
+    "purpose": "Oferă voluntarilor un spațiu confidențial de sprijin pentru dileme de carieră și echilibru personal-profesional, exclusiv la solicitarea expresă a acestora - rol part-time (2 ore/săptămână), fără autoritate ierarhică.",
+    "responsibilities": [
+      "Susține sesiuni individuale de coaching de carieră la cererea voluntarilor: clarificarea direcției, tranziții profesionale, pregătire pentru piața muncii",
+      "Oferă sprijin pe teme de wellbeing în limitele coaching-ului: gestionarea suprasolicitării, echilibru între voluntariat, job și studii",
+      "Păstrează confidențialitatea deplină a discuțiilor - conținutul sesiunilor nu se raportează nimănui din organizație",
+      "Semnalează HR Manager-ului exclusiv teme agregate și anonimizate (ex. \"mai mulți voluntari resimt suprasolicitare\"), niciodată cazuri individuale",
+      "Recomandă resurse sau specialiști externi atunci când o temă depășește cadrul coaching-ului (ex. dificultăți de sănătate mintală care necesită sprijin clinic)",
+      "Menține o evidență minimală, anonimizată, a volumului de sesiuni (pentru dimensionarea rolului), fără conținutul discuțiilor"
+    ],
+    "requiredSkills": [
+      "Formare/experiențǎ practicǎ în coaching",
+      "Capacitatea de a respecta limitele rolului",
+      "Confidențialitate absolutǎ și eticǎ",
+      "Ascultare activǎ și neultralitate",
+      "Disponibilitate de 2ore/sǎptǎmânǎ"
+    ],
+    "desirableSkills": [
+      "Certificare coaching sau studii psihologie",
+      "Familiaritate cu piața muncii din România",
+      "Familiaritate cu piața IT",
+      "Experiențǎ lucru cu tinerii/persoane în tranziție profesionalǎ",
+      "Experiențǎ cu mediul ONG/voluntariat"
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitatea și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "Organizația pune la dispoziția voluntarului:",
+      "(1) acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "(2) documentația internă și procedurile aferente rolului;",
+      "(3) îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "(4) resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "(5) acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching.",
+      "Organizația nu acoperă costuri de echipament personal; voluntarul are nevoie de calculator și conexiune la internet proprii"
+    ],
+    "evaluation": [
+      "Evaluarea activității voluntarului se realizează prin:",
+      "(1) discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "(2) analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "(3) autoevaluare, ca bază a discuției de feedback.",
+      "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
+    ]
+  }
+]

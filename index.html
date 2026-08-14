@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Cuprins Fișe de Voluntar | Asociația Oportunități și Cariere
+    </title>
+    <meta
+      name="description"
+      content="Cuprinsul fișelor de voluntar din cadrul Asociației Oportunități și Cariere."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gelasio:wght@700&family=Inter:wght@300;400;500;600;700&family=Jost:wght@300;400;500;600;700&family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="toc-page-body">
+    <div class="toc-container">
+      <header class="main-header toc-header">
+        <div class="header-left">
+          <a
+            href="https://oportunitatisicariere.ro"
+            target="_blank"
+            rel="noopener"
+            class="brand-link"
+          >
+            <div class="brand-group">
+              <img
+                class="brand-logo"
+                src="https://oportunitatisicariere.ro/assets/Header/logo.png"
+                alt="Asociația Oportunități și Cariere"
+              />
+              <div class="brand-text">
+                <span class="brand-first">ASOCIAȚIA</span>
+                <span class="brand-second">OPORTUNITĂȚI ȘI CARIERE</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </header>
+
+      <main class="toc-main">
+        <h1 class="toc-title">Cuprins Fișe de Voluntar</h1>
+        <p class="toc-subtitle">
+          Descoperă oportunitățile și rolurile disponibile în cadrul asociației
+        </p>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+          <svg class="search-icon" viewBox="0 0 24 24">
+            <path
+              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+            />
+          </svg>
+          <input
+            type="text"
+            id="toc-search"
+            placeholder="Caută o fișă"
+            aria-label="Caută rol"
+          />
+        </div>
+
+        <!-- TOC Grid -->
+        <div class="toc-grid">
+          <!-- Section 2: Fise Tech -->
+          <section class="toc-section" id="section-voluntar-tech">
+            <h2 class="toc-section-title">Fișe Tehnice</h2>
+            <div class="toc-section-intro">
+              Roluri și oportunități în echipele de tehnologie, inginerie și
+              design.
+            </div>
+            <div class="toc-departments-grid" id="list-voluntar-tech">
+              <!-- Rendered Dynamically as Dept Cards -->
+            </div>
+          </section>
+
+          <!-- Section 3: Fise Nontech -->
+          <section class="toc-section" id="section-voluntar-nontech">
+            <h2 class="toc-section-title">Fișe Non-tehnice</h2>
+            <div class="toc-section-intro">
+              Roluri și oportunități în management, marketing, finanțe, legal și
+              resurse umane.
+            </div>
+            <div class="toc-departments-grid" id="list-voluntar-nontech">
+              <!-- Rendered Dynamically as Dept Cards -->
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer class="app-footer toc-footer">
+        <div class="footer-links">
+          <a
+            href="https://oportunitatisicariere.ro"
+            target="_blank"
+            rel="noopener"
+            >oportunitatisicariere.ro</a
+          >
+          <span class="divider">·</span>
+          <a href="https://peviitor.ro" target="_blank" rel="noopener"
+            >peviitor.ro</a
+          >
+          <span class="divider">·</span>
+          <a
+            href="https://discord.gg/oportunitati-si-cariere"
+            target="_blank"
+            rel="noopener"
+            >Discord</a
+          >
+        </div>
+        <div class="footer-copy">
+          &copy; 2026 Asociația Oportunități și Cariere. Toate drepturile
+          rezervate.
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      let jobsData = [];
+
+      async function initTOC() {
+        try {
+          const res = await fetch("jobs.json");
+          jobsData = await res.json();
+          renderTOC(jobsData);
+
+          // Add search listener
+          document
+            .getElementById("toc-search")
+            .addEventListener("input", (e) => {
+              const query = e.target.value.toLowerCase().trim();
+              filterTOC(query);
+            });
+        } catch (err) {
+          console.error("Error loading jobs data:", err);
+        }
+      }
+
+      function renderTOC(data) {
+        const listVoluntarTech = document.getElementById("list-voluntar-tech");
+        const listVoluntarNontech = document.getElementById(
+          "list-voluntar-nontech",
+        );
+
+        listVoluntarTech.innerHTML = "";
+        listVoluntarNontech.innerHTML = "";
+
+        function getDepts(jobs) {
+          const depts = {};
+          jobs.forEach((job) => {
+            const d = job.department || "General";
+            if (!depts[d]) depts[d] = [];
+            depts[d].push(job);
+          });
+          return depts;
+        }
+
+        const voluntarTech = data.filter((j) => j.category === "Tech");
+        const techDepts = getDepts(voluntarTech);
+        Object.keys(techDepts)
+          .sort()
+          .forEach((dept) => {
+            const deptCard = createDeptCard(dept, techDepts[dept]);
+            listVoluntarTech.appendChild(deptCard);
+          });
+
+        const voluntarNontech = data.filter((j) => j.category === "Nontech");
+        const nontechDepts = getDepts(voluntarNontech);
+        Object.keys(nontechDepts)
+          .sort()
+          .forEach((dept) => {
+            const deptCard = createDeptCard(dept, nontechDepts[dept]);
+            listVoluntarNontech.appendChild(deptCard);
+          });
+      }
+
+      function createDeptCard(deptName, jobs) {
+        const card = document.createElement("div");
+        card.className = "toc-dept-card";
+        card.dataset.dept = deptName;
+
+        const h3 = document.createElement("h3");
+        h3.className = "toc-dept-title";
+        h3.textContent = deptName;
+        card.appendChild(h3);
+
+        const listDiv = document.createElement("div");
+        listDiv.className = "toc-dept-list";
+
+        jobs.forEach((job) => {
+          const item = document.createElement("a");
+          item.href = `fisa_voluntar.html?job=${job.id}`;
+          item.className = "toc-dept-item";
+
+          item.dataset.searchable = (job.title + " " + deptName).toLowerCase();
+          item.innerHTML = `
+            <span class="toc-dept-item-title">${job.title}</span>
+            <svg class="toc-arrow-icon-small" viewBox="0 0 24 24">
+              <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+            </svg>
+          `;
+          listDiv.appendChild(item);
+        });
+
+        card.appendChild(listDiv);
+        return card;
+      }
+
+      function filterTOC(query) {
+        const techCards = document.querySelectorAll(
+          "#list-voluntar-tech .toc-dept-card",
+        );
+        let visibleTech = 0;
+        techCards.forEach((card) => {
+          const items = card.querySelectorAll(".toc-dept-item");
+          let visibleItems = 0;
+          items.forEach((item) => {
+            const searchStr = item.dataset.searchable;
+            if (searchStr.includes(query)) {
+              item.style.display = "flex";
+              visibleItems++;
+            } else {
+              item.style.display = "none";
+            }
+          });
+          if (visibleItems > 0 || query === "") {
+            card.style.display = "block";
+            visibleTech++;
+          } else {
+            card.style.display = "none";
+          }
+        });
+        document.getElementById("section-voluntar-tech").style.display =
+          visibleTech > 0 || query === "" ? "block" : "none";
+
+        const nontechCards = document.querySelectorAll(
+          "#list-voluntar-nontech .toc-dept-card",
+        );
+        let visibleNontech = 0;
+        nontechCards.forEach((card) => {
+          const items = card.querySelectorAll(".toc-dept-item");
+          let visibleItems = 0;
+          items.forEach((item) => {
+            const searchStr = item.dataset.searchable;
+            if (searchStr.includes(query)) {
+              item.style.display = "flex";
+              visibleItems++;
+            } else {
+              item.style.display = "none";
+            }
+          });
+          if (visibleItems > 0 || query === "") {
+            card.style.display = "block";
+            visibleNontech++;
+          } else {
+            card.style.display = "none";
+          }
+        });
+        document.getElementById("section-voluntar-nontech").style.display =
+          visibleNontech > 0 || query === "" ? "block" : "none";
+      }
+
+      window.addEventListener("DOMContentLoaded", initTOC);
+    </script>
+  </body>
+</html>

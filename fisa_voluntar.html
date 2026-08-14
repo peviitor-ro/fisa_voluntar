@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fișă de Voluntar | Asociația Oportunități și Cariere</title>
+    <meta
+      name="description"
+      content="Fișe de Voluntar pentru rolurile din cadrul Asociației Oportunități și Cariere. Detalii despre responsabilități, cerințe și competențe dezvoltate."
+    />
+    <meta property="og:title" content="Fișe de Voluntar | AOC" />
+    <meta
+      property="og:description"
+      content="Alătură-te echipei noastre. Descoperă rolurile noastre pe tehnologii moderne."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gelasio:wght@700&family=Inter:wght@300;400;500;600;700&family=Jost:wght@300;400;500;600;700&family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <aside class="left-dock-bar">
+      <button id="sidebar-toggle" class="sidebar-toggle-btn" aria-label="Meniu">
+        <svg viewBox="0 0 24 24">
+          <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+        </svg>
+      </button>
+    </aside>
+
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+    <aside id="app-sidebar" class="sidebar">
+      <div class="sidebar-header">
+        <span class="sidebar-brand-title">Meniu</span>
+        <button
+          id="sidebar-close"
+          class="sidebar-close-btn"
+          aria-label="Închide"
+        >
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </button>
+      </div>
+      <a href="index.html" class="back-to-toc-btn">
+        <svg viewBox="0 0 24 24" class="back-icon">
+          <path
+            d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+          />
+        </svg>
+        <span>Înapoi la cuprins</span>
+      </a>
+      <nav class="nav-card">
+        <h2 class="nav-title">Categorii Posturi</h2>
+        <ul id="nav-list" class="nav-list"></ul>
+      </nav>
+    </aside>
+
+    <div class="app-container">
+      <header class="main-header">
+        <div class="header-left">
+          <a
+            href="https://oportunitatisicariere.ro"
+            target="_blank"
+            rel="noopener"
+            class="brand-link"
+          >
+            <div class="brand-group">
+              <img
+                class="brand-logo"
+                src="https://oportunitatisicariere.ro/assets/Header/logo.png"
+                alt="Asociația Oportunități și Cariere"
+              />
+              <div class="brand-text">
+                <span class="brand-first">ASOCIAȚIA</span>
+                <span class="brand-second">OPORTUNITĂȚI ȘI CARIERE</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </header>
+
+      <main class="content-area">
+        <section class="hero-card">
+          <h1 class="job-main-title">Fișă de voluntar</h1>
+          <div id="meta-grid" class="meta-grid"></div>
+        </section>
+
+        <section class="section-card">
+          <h2 class="section-title">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+              />
+            </svg>
+            <span id="purpose-heading">Scopul rolului</span>
+          </h2>
+          <div class="purpose-box">
+            <p id="purpose-text">Se încarcă...</p>
+          </div>
+        </section>
+
+        <section class="section-card">
+          <h2 class="section-title">
+            <span>Responsabilități cheie</span>
+          </h2>
+          <ul id="responsibilities-list" class="responsibilities-list"></ul>
+        </section>
+
+        <section class="section-card">
+          <h2 class="section-title">
+            <span>Abilități și Cunoștințe</span>
+          </h2>
+          <div class="skills-columns">
+            <div class="skills-columns-inner">
+              <div class="skills-column" id="required-skills-col">
+                <h3 class="skills-column-title">Necesare</h3>
+                <ul id="required-skills-list" class="skills-list"></ul>
+              </div>
+              <div class="skills-column" id="desirable-skills-col">
+                <h3 class="skills-column-title">Dezirabile</h3>
+                <ul id="desirable-skills-list" class="skills-list"></ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Volunteer-specific sections (rendered only if present) -->
+        <section
+          class="section-card"
+          id="section-extra-details"
+          style="display: none"
+        >
+          <h2 class="section-title">
+            <span>Detalii Voluntariat</span>
+          </h2>
+          <div class="volunteer-details-grid">
+            <div class="detail-block" id="detail-benefits-block">
+              <h3 class="skills-column-title">Beneficii</h3>
+              <ul id="benefits-list" class="skills-list"></ul>
+            </div>
+            <div class="detail-block" id="detail-resources-block">
+              <h3 class="skills-column-title">Resurse Disponibile</h3>
+              <ul id="resources-list" class="skills-list"></ul>
+            </div>
+            <div class="detail-block" id="detail-evaluation-block">
+              <h3 class="skills-column-title">Metode de Evaluare</h3>
+              <ul id="evaluation-list" class="skills-list"></ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-card" id="section-competencies">
+          <h2 class="section-title">
+            <span>Skilluri / competențe dezvoltate</span>
+          </h2>
+          <div id="competencies-grid" class="competencies-grid"></div>
+        </section>
+
+        <section class="section-card" id="section-note">
+          <h2 class="section-title">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+              />
+            </svg>
+            <span>Notă importantă</span>
+          </h2>
+          <div class="note-box">
+            <p id="note-text" class="note-text">Se încarcă...</p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="app-footer">
+        <div class="footer-links">
+          <a
+            href="https://oportunitatisicariere.ro"
+            target="_blank"
+            rel="noopener"
+            >oportunitatisicariere.ro</a
+          >
+          <span>·</span>
+          <a href="https://peviitor.ro" target="_blank" rel="noopener"
+            >peviitor.ro</a
+          >
+          <span>·</span>
+          <a
+            href="https://discord.gg/oportunitati-si-cariere"
+            target="_blank"
+            rel="noopener"
+            >Discord</a
+          >
+        </div>
+        <div class="footer-copy">
+          &copy; 2026 Asociația Oportunități și Cariere. Toate drepturile
+          rezervate.
+        </div>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
