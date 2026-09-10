@@ -3064,5 +3064,63 @@
       "(3) autoevaluare, ca bază a discuției de feedback.",
       "Evaluarea are scop de dezvoltare și de ajustare a colaborării, nu de sancționare, și poate fundamenta recomandări, extinderea responsabilităților sau tranziția către alte roluri din organizație."
     ]
+  },
+  {
+    "id": "vol_product_owner",
+    "title": "Product Owner",
+    "badge": "Fișă Voluntar",
+    "category": "Tech",
+    "department": "Product Management",
+    "level": "Voluntar",
+    "reportsTo": "CEO",
+    "weeklyTime": "6–10 ore/săptămână",
+    "onetCode": "15-1299.09 – Information Technology Project Managers",
+    "training": "",
+    "purpose": "Este un rol cheie în cadrul unei echipe Agile (de regulă Scrum), responsabil cu maximizarea valorii unui produs și cu gestionarea eficientă a listei de priorități (Product Backlog).",
+    "responsibilities": [
+      "Definește și menține direcția produsului, în acord cu obiectivele Organizației și nevoile utilizatorilor.",
+      "Colectarea ideilor de la echipa de organizare, transformarea lor în task-uri clare și prioritizarea lor în funcție de urgență și impact.",
+      "Creează, gestionează și menține Product Backlog-ul, asigurând claritatea, transparența și ordonarea acestuia.",
+      "Colaborează cu echipa de dezvoltare pentru clarificarea cerințelor, rafinarea backlog-ului și definirea criteriilor necesare pentru livrarea funcționalităților.",
+      "Evaluarea constantă a impactului pe care proiectul îl are în comunitate și ajustarea strategiei pe parcurs pentru a maximiza rezultatele obținute cu resursele disponibile.",
+      "Raportează către CEO progresul și rezultatele activității."
+    ],
+    "requiredSkills": [
+      "Abilități de comunicare și colaborare cu echipa de dezvoltare și stakeholderii produsului.",
+      "Capacitatea de a stabili și prioritiza funcționalitățile și îmbunătățirile produsului.",
+      "Abilități de organizare și gestionare a Product Backlog-ului.",
+      "Identifică, analizează și prioritizează nevoile utilizatorilor și ale stakeholderilor relevanți pentru produs.",
+      "Disponibilitate de minim 6 ore/săptămână, cu prezență constantă (rolul presupune continuitate, nu implicare sporadică)"
+    ],
+    "desirableSkills": [
+      "Engleză scris-citit, nivel funcțional",
+      "Cunoștințe despre Agile și Scrum și responsabilitățile unui Product Owner.",
+      "Experiență în utilizarea unor instrumente precum Jira, Notion sau similare.",
+      "Abilitatea de a transforma nevoile clienților în specificații tehnice logice și ușor de înțeles de către developeri.",
+      "Cunoștințe de bază despre UX/UI și dezvoltarea produselor digitale.",
+      "Abilitatea de a motiva și ghida echipa de dezvoltare."
+    ],
+    "developedCompetencies": [],
+    "note": "",
+    "location": "100% remote",
+    "benefits": [
+      "A beneficia de contract de voluntariat",
+      "A participa la traininguri gratuite",
+      "A avea posibilitatea de a obține o adeverință de practică",
+      "A primi recomandări și recunoaștere",
+      "A face parte dintr-o comunitate și a contribui la îmbunătățirea acesteia."
+    ],
+    "resources": [
+      "acces la instrumentele de lucru ale echipei (Google Workspace, Discord, GitHub/alte unelte specifice rolului);",
+      "documentația internă și procedurile aferente rolului;",
+      "îndrumare din partea coordonatorului direct și, unde este cazul, a mentorului de departament;",
+      "resurse de învățare curatoriate pentru familia de roluri din care face parte poziția;",
+      "acces, la cerere, la sesiuni confidențiale de wellbeing/career coaching."
+    ],
+    "evaluation": [
+      "discuții periodice de feedback cu coordonatorul direct, de regulă lunar/trimestrial;",
+      "analiza activității desfășurate în raport cu responsabilitățile din prezenta fișă;",
+      "autoevaluare, ca bază a discuției de feedback."
+    ]
   }
 ]
